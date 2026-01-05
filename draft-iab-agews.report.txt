@@ -10,11 +10,18 @@ Expires: 9 July 2026                                      5 January 2026
 
  Report from the IAB/W3C Workshop on Age-Based Restrictions on Content
                                  Access
-                     draft-iab-agews-report-latest
+                     draft-iab-agews.report-latest
 
 Abstract
 
    TODO Abstract
+
+Discussion Venues
+
+   This note is to be removed before publishing as an RFC.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/intarchboard/draft-iab-agews-report.
 
 Status of This Memo
 
