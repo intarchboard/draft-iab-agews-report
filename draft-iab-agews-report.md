@@ -71,10 +71,9 @@ informative:
 
 --- abstract
 
-The Workshop on Age-Based Restrictions on Content Access was convened by the Internet Architecture Board (IAB) and World Wide Web Consortium (W3C)  in October 2025. This report summarizes its significant points of discussion and identifies topics that may warrant further consideration and work.
+The Workshop on Age-Based Restrictions on Content Access was convened by the Internet Architecture Board (IAB) and World Wide Web Consortium (W3C) in October 2025. This report summarizes its significant points of discussion and identifies topics that may warrant further consideration and work.
 
 Note that this document is a report on the proceedings of the workshop. The views and positions documented in this report are those of the workshop participants and do not necessarily reflect IAB or W3C views and positions.
-
 
 
 --- middle
@@ -359,7 +358,7 @@ Attendees of the workshop are listed with their primary affiliation. Attendees f
 * Benjamin VanderSloot, Mozilla
 * Tara Whalen, World Wide Web Consortium (PC)
 
-# Appendix: Potential Impacts
+# Potential Impacts
 
 During the workshop, participants were asked to name potential impacts \- whether positive or negative \- that could be seen in association with the introduction of an age control mechanism. This list is not exhaustive, and does not imply that all points were agreed to by all participants.
 
@@ -429,7 +428,7 @@ During the workshop, participants were asked to name potential impacts \- whethe
 * Advancing foreign policy goals with censorship
 * Abuse of guardians who don’t cut off their wards
 
-# Appendix: Desirable and Essential Properties of a Solution
+# Desirable and Essential Properties of a Solution
 
 During the workshop, participants were asked to nominate the properties that they believed would be advantageous or even essential for a solution in this space to have. This set of requirements and desiderata were recognized as not all being achievable, as some goals are in tension with others.
 
