@@ -84,13 +84,13 @@ Regulators and legislators around the world are increasingly restricting what ca
 
 In October 2025, the Internet Architecture Board and the World Wide Web Consortium convened the Workshop on Age-Based Restrictions on Content Access. It brought together technologists, civil society advocates, business interests, and government stakeholders to discuss the nuances of the introduction of such measures.
 
-The primary focus was “to perform a thorough examination of the technical and architectural choices that are involved in solutions for age-based restrictions on access to content”, with a goal of “build\[ing] a shared understanding of the properties of various proposed approaches.”
+The primary focus was "to perform a thorough examination of the technical and architectural choices that are involved in solutions for age-based restrictions on access to content", with a goal of "build\[ing] a shared understanding of the properties of various proposed approaches."
 
 See the workshop announcement {{ANNOUNCE}} for details. This report summarises the proceedings of the workshop.
 
 ## Views Expressed in this Report
 
-This document is a report on the proceedings of the workshop. The views and positions documented in this report were expressed during the workshop by participants and do not necessarily reflect the IAB's or W3C’s views and positions.
+This document is a report on the proceedings of the workshop. The views and positions documented in this report were expressed during the workshop by participants and do not necessarily reflect the IAB's or W3C's views and positions.
 
 Furthermore, the content of the report comes from presentations given by workshop participants and notes taken during the discussions, without interpretation or validation. Thus, the content of this report follows the flow and dialogue of the workshop but does not attempt to capture a consensus.
 
@@ -104,11 +104,11 @@ Participants agreed to conduct the workshop under the Chatham House Rule {{CHATH
 
 The IAB/W3C workshop on Age-Based Restrictions on Content Access brought together a diverse group of participants from technical, policy, regulatory, and research communities to examine how the Internet might accommodate demands for age-based access controls. Over three days, discussions traversed the intersection of technology, governance, human rights, and social expectations, with a recurring emphasis on privacy, accountability, and the preservation of the open architecture of the Internet.
 
-The workshop began with a framing session that emphasized the Internet’s original design as a universal, non-segmented space. Participants observed that the web does not natively distinguish between adult and child users, and that regulatory trends are shifting responsibility from parents and individuals to governments and service providers. The scope of discussion was tightly defined: not the morality or policy of age restrictions, but the technical, architectural, and human-rights implications of enforcing them. The challenge, many participants agreed, lay in building mechanisms that are accurate, respect privacy, maintain global interoperability, and avoid creating infrastructure that could be repurposed for censorship or surveillance.
+The workshop began with a framing session that emphasized the Internet's original design as a universal, non-segmented space. Participants observed that the web does not natively distinguish between adult and child users, and that regulatory trends are shifting responsibility from parents and individuals to governments and service providers. The scope of discussion was tightly defined: not the morality or policy of age restrictions, but the technical, architectural, and human-rights implications of enforcing them. The challenge, many participants agreed, lay in building mechanisms that are accurate, respect privacy, maintain global interoperability, and avoid creating infrastructure that could be repurposed for censorship or surveillance.
 
-Early exchanges focused on terminology and scope—whether “age verification” should be understood narrowly as identity checking or more broadly as “age assurance.” The conversation also touched on the diversity of cultural expectations about parental authority and the variety of legal frameworks emerging across jurisdictions. Some participants warned of “slippery slope” effects, where mechanisms designed for age checks might evolve into tools for broader identity enforcement. Several noted that while liability drives many policy decisions, technical design should aim to minimize harm and avoid over-centralization. The question of who bears responsibility—platforms, regulators, or device manufacturers—surfaced repeatedly.
+Early exchanges focused on terminology and scope—whether "age verification" should be understood narrowly as identity checking or more broadly as "age assurance." The conversation also touched on the diversity of cultural expectations about parental authority and the variety of legal frameworks emerging across jurisdictions. Some participants warned of "slippery slope" effects, where mechanisms designed for age checks might evolve into tools for broader identity enforcement. Several noted that while liability drives many policy decisions, technical design should aim to minimize harm and avoid over-centralization. The question of who bears responsibility—platforms, regulators, or device manufacturers—surfaced repeatedly.
 
-Human-rights principles were foregrounded as a basis for evaluation. Privacy was discussed not only as data minimization but as protection from unwanted exposure or interaction. Freedom of expression and opinion was considered, for how adults and children both have rights to communicate, access information and associate, free from the chilling effects of surveillance or discrimination.The group revisited long-standing Internet design tenets, such as decentralization and the end-to-end principle, asking how they should inform modern architectures that could easily drift toward central control. Some argued that successful systems must remain open, interoperable, and reversible, while others cautioned that any solution—even a well-intentioned one—would inevitably reshape the Internet’s social and economic balance.
+Human-rights principles were foregrounded as a basis for evaluation. Privacy was discussed not only as data minimization but as protection from unwanted exposure or interaction. Freedom of expression and opinion was considered, for how adults and children both have rights to communicate, access information and associate, free from the chilling effects of surveillance or discrimination.The group revisited long-standing Internet design tenets, such as decentralization and the end-to-end principle, asking how they should inform modern architectures that could easily drift toward central control. Some argued that successful systems must remain open, interoperable, and reversible, while others cautioned that any solution—even a well-intentioned one—would inevitably reshape the Internet's social and economic balance.
 
 Technical sessions explored a spectrum of enforcement models: service-based, network-based, and device-based. Service-enforced systems place the compliance burden on websites, risking fragmentation and user fatigue from repeated verification flows. Network-based filtering—already common in some jurisdictions—offers broad coverage but limited accuracy and significant privacy trade-offs. Device-enforced models, in which operating systems mediate access based on a one-time verification, were praised for usability and consistency but criticized for potential concentration of power among major vendors. Many participants favored a pluralistic approach, recognizing that no single architecture can meet all requirements equally across jurisdictions.
 
@@ -122,7 +122,7 @@ The meeting closed with reflections on what process might be followed to take pr
 
 While this workshop would not provide specific standards proposals or take positions on the advisability of regulatory proposals, it was suggested that leadership bodies including the Internet Architecture Board and Technical Architecture Group could be places to make such statements.
 
-While the current status quo—piecemeal, opaque, and privacy-eroding—was unsatisfactory to most participants, many cautioned that hasty solutions could entrench worse problems. This led to growing recognition that protecting children online must not come at the expense of the Internet’s foundational freedoms, and that sustained, multi-stakeholder collaboration is the only viable path forward.
+While the current status quo—piecemeal, opaque, and privacy-eroding—was unsatisfactory to most participants, many cautioned that hasty solutions could entrench worse problems. This led to growing recognition that protecting children online must not come at the expense of the Internet's foundational freedoms, and that sustained, multi-stakeholder collaboration is the only viable path forward.
 
 # Key Takeaways
 
@@ -177,7 +177,7 @@ Age inference:
 Age gating:
 : Age gating is the process of restricting access to something based on the age of the person requesting access.
 
-Relating these functions to the roles described in {{roles}}, all age assurance types fit the “verifier” role, where age gating applies to the “enforcer” role.
+Relating these functions to the roles described in {{roles}}, all age assurance types fit the "verifier" role, where age gating applies to the "enforcer" role.
 
 ## Privacy and Trust Expectations Need Further Discussion {#trust}
 
@@ -187,7 +187,7 @@ Participants identified privacy as important to maintaining trust in any system 
 
 Where private information is used by the actors in a proposed architecture, those actors might need to be trusted to handle that private information responsibly. In that approach, the importance of different safeguards on personal information, such as the prompt disposal of any personal information – a practice that many age verification providers promise – becomes a core part of what might allow people to trust that system.
 
-Several people observed that the sort of trust that is asked from people might not correspond with the role that certain entities play in people’s lives. This will depend on context, where “adult” content providers generally serve anonymous users, whereas social media often already has a lot of personal information on users.
+Several people observed that the sort of trust that is asked from people might not correspond with the role that certain entities play in people's lives. This will depend on context, where "adult" content providers generally serve anonymous users, whereas social media often already has a lot of personal information on users.
 
 In either case, users might have no prior knowledge of – or trust in – providers that are contracted to provide age assurance functions. It was observed that one likely consequence of some arrangements is to train people to become more trusting of strange sites that ask for personal information.
 
@@ -210,7 +210,7 @@ Some participants noted that inconsistent friction and invasiveness creates a di
 One consequence of having multiple imperfect techniques is the need to recognize that any system will be imperfect. That cuts in both directions:
 
 * Some people will never be able to satisfy age assurance checks and will therefore be excluded by strict assurance mandates. Here, discussions acknowledged that purely technical systems are likely inadequate.
-* Some people who should be blocked from accessing content or services will find ways to circumvent restrictions. In this context, the term “advanced persistent teenager” was recognized as characterizing the nature of the “adversary”: individuals who are considered too young to access content, but who are highly motivated, technically sophisticated, and have time to spare.
+* Some people who should be blocked from accessing content or services will find ways to circumvent restrictions. In this context, the term "advanced persistent teenager" was recognized as characterizing the nature of the "adversary": individuals who are considered too young to access content, but who are highly motivated, technically sophisticated, and have time to spare.
 * Offering more choices to people can improve privacy because they get to choose the method that suits them. However, when a chosen method fails, having to engage with additional methods has a higher privacy cost.
 
 Some participants argued that accepting these risks is necessary in order to gain any of the benefits that age-based restrictions might confer. However, it was clear that other participants were unwilling to accept potential impositions on individual rights in light of the insufficiency of restrictions in providing meaningful protection; see {{holistic}}.
@@ -235,7 +235,7 @@ Architectures are not equally vulnerable to different risks, so a more thorough 
 
 Experts in child safety frequently acknowledged that restricting access to selected content cannot be assumed to be sufficient. The task of ensuring that children are both kept appropriately safe, while preparing them for the challenges they will face in their lifetimes is a massively complex task.
 
-A recurrent theme was the old maxim, “it takes a village to raise a child”. This concept transcends cultural boundaries and was recognized. The role of parents, guardians, educators, governments, and online services in creating an environment in which children can thrive and grow.
+A recurrent theme was the old maxim, "it takes a village to raise a child". This concept transcends cultural boundaries and was recognized. The role of parents, guardians, educators, governments, and online services in creating an environment in which children can thrive and grow.
 
 Content and service restrictions are likely only a small part of a suite of actions that combine to provide children with protection, but also support and encouragement. This theme was raised several times, despite the goal of the discussion being to explore technical and architectural questions.
 
@@ -299,7 +299,7 @@ There are several active and proposed systems for age restriction on the Interne
 
 * Age verification: including server-side solutions using government identity systems / ZKP
 * Age estimation: including biometrics and data analysis
-* Age “inference” approaches
+* Age "inference" approaches
 * In-network solutions
 * Classification and On-device / parental control designs
 
@@ -362,14 +362,14 @@ Attendees of the workshop are listed with their primary affiliation. Attendees f
 
 # Potential Impacts
 
-During the workshop, participants were asked to name potential impacts \- whether positive or negative \- that could be seen in association with the introduction of an age control mechanism. This list is not exhaustive, and does not imply that all points were agreed to by all participants.
+During the workshop, participants were asked to name potential impacts -- whether positive or negative -- that could be seen in association with the introduction of an age control mechanism. This list is not exhaustive, and does not imply that all points were agreed to by all participants.
 
 ## Impact on Children
 
 * Children encounter online harms
 * Pushing kids to less safe resources
 * Kids lose the ability to explore on their own
-* Diminishing children’s rights
+* Diminishing children's rights
 
 ## Ecosystem Impact
 
@@ -405,7 +405,7 @@ During the workshop, participants were asked to name potential impacts \- whethe
 * Fingerprinting risk
 * Ad targeting could get creepier
 * Needing to trust someone on their word without evidence
-* Normalizing online identity requests \- increase to phishing risk
+* Normalizing online identity requests -- increase to phishing risk
 * Data breaches
 
 ## Equity
@@ -415,7 +415,7 @@ During the workshop, participants were asked to name potential impacts \- whethe
 * Harm to vulnerable people
 * Not addressing other vulnerable groups (i.e., not age-based)
 * Lack of availability of redress mechanisms
-* Users’ rights to restitution
+* Users' rights to restitution
 * Loss of control over and access to data
 * Risk to anonymity
 * Loss of ability to run software of your choice
@@ -428,7 +428,7 @@ During the workshop, participants were asked to name potential impacts \- whethe
 * Increased online tracking and state surveillance
 * Use as a censorship mechanism
 * Advancing foreign policy goals with censorship
-* Abuse of guardians who don’t cut off their wards
+* Abuse of guardians who don't cut off their wards
 
 # Desirable and Essential Properties of a Solution
 
@@ -436,14 +436,14 @@ During the workshop, participants were asked to nominate the properties that the
 
 ## Functional
 
-* Underage don’t access content that’s inappropriate
+* Underage don't access content that's inappropriate
 * Not trivially by-passable
 * Flexible enough to be provided through different means
 * Bound to the user
 * Reliable
 * Handles user-generated content
 * Enables differential experiences or age appropriate design (not just blocking)
-* Agile by design \- assume adversarial engagement
+* Agile by design -- assume adversarial engagement
 * Difficult to bypass
 
 ## Accountability and Transparency
@@ -461,13 +461,13 @@ During the workshop, participants were asked to nominate the properties that the
 * Purpose limitation of the data processed
 * Security of data processed
 * Phishing-resistant
-* Doesn’t process or transfer any more data than is necessary
+* Doesn't process or transfer any more data than is necessary
 * Avoids becoming a tracking vector
 
 ## Equity
 
 * Inclusive
-* Fair \- avoids or minimises bias
+* Fair -- avoids or minimises bias
 * Does not create inequalities (e.g., across education, other properties)
 * Discriminates solely upon age, not other properties
 * Works on open devices
@@ -499,7 +499,7 @@ During the workshop, participants were asked to nominate the properties that the
 
 * Low dependency on a single root of trust
 * Enforceable by a good mix of technology and law
-* Broad deployability \- not expensive or complex
+* Broad deployability -- not expensive or complex
 * Decentralized
 * Future-proof
 * Ability to report / learn when there are issues in the system / telemetry
@@ -509,7 +509,7 @@ During the workshop, participants were asked to nominate the properties that the
 * Not perfect
 * Technically robust
 * Not a single, sole solution
-* Stable \- resilient
+* Stable -- resilient
 * Alignment of incentives among participants
 * Simple to implement
 * Resistance to repurposing for censorship
