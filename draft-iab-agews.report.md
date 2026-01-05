@@ -1,12 +1,4 @@
 ---
-
-# For initial setup, you only need to edit the first block of fields.
-# Only "title" needs to be changed; delete "abbrev" if your title is short.
-# Any other content can be edited, but be careful not to introduce errors.
-# Some fields will be set automatically during setup if they are unchanged.
-#
-
-
 title: "Report from the IAB/W3C Workshop on Age-Based Restrictions on Content Access"
 abbrev: "AGEWS Report"
 category: info
