@@ -1,0 +1,4 @@
+# Automatically generated CODEOWNERS
+# Regenerate with `make update-codeowners`
+draft-iab-agews.report.md mnot@mnot.net mt@lowentropy.net
+draft-todo-yourname-protocol.md mnot@mnot.net
