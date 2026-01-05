@@ -257,6 +257,8 @@ This document has no IANA actions.
 
 # Workshop Agenda
 
+The following sections cover each of the main topics of discussion sessions.
+
 ## Topic: Introduction
 
 We will launch the workshop with a greeting, a round of introductions, and an explanation of the terms of engagement, background, goals and non-goals of the workshop.
