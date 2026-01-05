@@ -11,7 +11,7 @@ title: "Report from the IAB/W3C Workshop on Age-Based Restrictions on Content Ac
 abbrev: "AGEWS Report"
 category: info
 
-docname: draft-iab-agews-report-latest
+docname: draft-iab-agews.report-latest
 submissiontype: IAB
 number:
 date:
