@@ -10,7 +10,11 @@ date:
 consensus: true
 v: 3
 keyword:
- - IAB workshop
+  - IAB workshop
+  - age gate
+venue:
+  github: "intarchboard/draft-iab-agews-report"
+  latest: "https://intarchboard.github.io/draft-iab-agews-report/draft-iab-agews-report.html"
 
 author:
  -
