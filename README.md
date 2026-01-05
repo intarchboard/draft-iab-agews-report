@@ -2,10 +2,10 @@
 
 # Report from the IAB/W3C Workshop on Age-Based Restrictions on Content Access
 
-* [Editor's Copy](https://intarchboard.github.io/draft-iab-agews-report/#go.draft-iab-agews.report.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-iab-agews.report)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-iab-agews.report)
-* [Compare Editor's Copy to Individual Draft](https://intarchboard.github.io/draft-iab-agews-report/#go.draft-iab-agews.report.diff)
+* [Editor's Copy](https://intarchboard.github.io/draft-iab-agews-report/#go.draft-iab-agews-report.html)
+* [Datatracker Page](https://datatracker.ietf.org/doc/draft-iab-agews-report)
+* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-iab-agews-report)
+* [Compare Editor's Copy to Individual Draft](https://intarchboard.github.io/draft-iab-agews-report/#go.draft-iab-agews-report.diff)
 
 
 
