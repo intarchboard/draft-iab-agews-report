@@ -18,6 +18,7 @@
 /versioned/
 Gemfile.lock
 archive.json
+draft-iab-agews-report.xml
 draft-iab-agews.report.xml
 draft-todo-yourname-protocol.xml
 package-lock.json
