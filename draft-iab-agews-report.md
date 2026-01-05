@@ -84,7 +84,7 @@ Regulators and legislators around the world are increasingly restricting what ca
 
 In October 2025, the Internet Architecture Board and the World Wide Web Consortium convened the Workshop on Age-Based Restrictions on Content Access. It brought together technologists, civil society advocates, business interests, and government stakeholders to discuss the nuances of the introduction of such measures.
 
-The primary focus was “to perform a thorough examination of the technical and architectural choices that are involved in solutions for age-based restrictions on access to content”, with a goal of “build[ing] a shared understanding of the properties of various proposed approaches.”
+The primary focus was “to perform a thorough examination of the technical and architectural choices that are involved in solutions for age-based restrictions on access to content”, with a goal of “build\[ing] a shared understanding of the properties of various proposed approaches.”
 
 See the workshop announcement {{ANNOUNCE}} for details. This report summarises the proceedings of the workshop.
 
