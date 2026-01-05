@@ -23,6 +23,47 @@ author:
 normative:
 
 informative:
+  ANNOUNCE:
+    title: IAB/W3C Workshop on Age-Based Restrictions on Content Access (agews)
+    target: https://datatracker.ietf.org/group/agews/about/
+    author:
+      org: Internet Architecture Board
+    date: false
+  CHATHAM-HOUSE:
+    title: Chatham House Rule
+    target: https://www.chathamhouse.org/about-us/chatham-house-rule
+    author:
+    - org: Chatham House
+    date: false
+  HANSON:
+    title: Where Enforcement Happens
+    target: https://datatracker.ietf.org/doc/slides-agews-slides-where-enforcement-happens/
+    author:
+    - fullname: Julia Hanson
+    date: false
+  FATE:
+    title: Face Analysis Technology Evaluation (FATE)
+    target: https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8491.pdf
+    author:
+    -
+      fullname: Mei Ngan
+    -
+      fullname: Patrick Grother
+    -
+      fullname: Austin Hom
+    date: false
+  JACKSON:
+    title: Where Enforcement Happens
+    target: https://datatracker.ietf.org/doc/slides-agews-where-enforcement-happens/
+    author:
+    - fullname: Dean Jackson
+    date: false
+  ISO-IEC-27566-1:
+    title: "Information security, cybersecurity and privacy protection — Age assurance systems Part 1: Framework"
+    target: https://www.iso.org/standard/88143.html
+    author:
+    - org: ISO
+    date: false
 
 --- abstract
 
@@ -42,7 +83,7 @@ In October 2025, the Internet Architecture Board and the World Wide Web Consorti
 
 The primary focus was “to perform a thorough examination of the technical and architectural choices that are involved in solutions for age-based restrictions on access to content”, with a goal of “build[ing] a shared understanding of the properties of various proposed approaches.”
 
-See the workshop announcement {{?ANNOUNCE=https://datatracker.ietf.org/group/agews/about/}} for details. This report summarises the proceedings of the workshop.
+See the workshop announcement {{ANNOUNCE}} for details. This report summarises the proceedings of the workshop.
 
 ## Views Expressed in this Report
 
@@ -52,7 +93,7 @@ Furthermore, the content of the report comes from presentations given by worksho
 
 ## Chatham House Rule
 
-Participants agreed to conduct the workshop under the Chatham House Rule {{?CHATHAM-HOUSE=https://www.chathamhouse.org/about-us/chatham-house-rule}}, so this report does not attribute statements to individuals or organizations without express permission.  Most submissions to the workshop were public and thus attributable; they are used here to provide substance and context.
+Participants agreed to conduct the workshop under the Chatham House Rule {{CHATHAM-HOUSE}}, so this report does not attribute statements to individuals or organizations without express permission.  Most submissions to the workshop were public and thus attributable; they are used here to provide substance and context.
 
 {{participants}} lists the workshop participants, unless they requested that this information be withheld.
 
@@ -96,7 +137,7 @@ Some participants also noted that approaches where liability rests only on one p
 
 ## Identifying the Roles Involved is Important {#roles}
 
-One of the more substantive discussions on architecture involved presentations on the functional roles involved in any system {{?HANSON=https://datatracker.ietf.org/doc/slides-agews-slides-where-enforcement-happens/}}.
+One of the more substantive discussions on architecture involved presentations on the functional roles involved in any system {{HANSON}}.
 
 Four key roles were identified:
 
@@ -116,7 +157,7 @@ In addition, it was noted that ratings and laws are often limited by geography o
 
 ## A Common Vocabulary is Necessary
 
-Early discussions highlighted how not all participants used the same terminology when referring to different activities or functions. There was a recognition of the value of shared language, and some participants pointed to {{?ISO-IEC-27566-1=https://www.iso.org/standard/88143.html}}, which establishes key terms, including:
+Early discussions highlighted how not all participants used the same terminology when referring to different activities or functions. There was a recognition of the value of shared language, and some participants pointed to {{ISO-IEC-27566-1}}, which establishes key terms, including:
 
 Age assurance:
 : Age assurance is an umbrella term for technology that provides some entity with information about the age of a person. This is understood to encompass multiple classes of specific methods, including age verification, age estimation, and age inference. Age assurance does not need to result in a specific age; age ranges are often preferred as these can have better privacy properties.
@@ -161,7 +202,7 @@ A recurrent theme in discussion was the insufficiency of any particular age assu
 
 Discussion often came back to an approach that is increasingly recommended for use in age verification, where multiple methods are applied in series. Checks with lower friction – those that require less active participation from people – or that are less invasive of privacy are attempted first. Successive checks are only used when a definitive result cannot be achieved.
 
-Some participants noted that inconsistent friction and invasiveness creates a different kind of discrimination, one that can exacerbate existing adverse discrimination. For example, the accuracy of age estimation for people with African heritage is often significantly lower than for those with European ancestry {{?FATE=https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8491.pdf}}. This is attributed to the models used being trained and validating using datasets that have less coverage of some groups. People who are affected by this bias are more likely to need to engage with more invasive methods.
+Some participants noted that inconsistent friction and invasiveness creates a different kind of discrimination, one that can exacerbate existing adverse discrimination. For example, the accuracy of age estimation for people with African heritage is often significantly lower than for those with European ancestry {{FATE}}. This is attributed to the models used being trained and validating using datasets that have less coverage of some groups. People who are affected by this bias are more likely to need to engage with more invasive methods.
 
 One consequence of having multiple imperfect techniques is the need to recognize that any system will be imperfect. That cuts in both directions:
 
@@ -173,7 +214,7 @@ Some participants argued that accepting these risks is necessary in order to gai
 
 ## Mapping the Risks for Architectures is a Useful Next Step {#risks}
 
-How the identified roles (see {{roles}}) are arranged into architectures was some of the more substantive discussion. {{JACKSON=[https://datatracker.ietf.org/doc/slides-agews-where-enforcement-happens/](https://datatracker.ietf.org/doc/slides-agews-where-enforcement-happens/)}} describes some of the alternatives, along with some of the implications that arise from different arrangements.
+How the identified roles (see {{roles}}) are arranged into architectures was some of the more substantive discussion. {{JACKSON}} describes some of the alternatives, along with some of the implications that arise from different arrangements.
 
 Throughout this discussion, it was acknowledged that active deployments tended to fall into a common basic pattern. Several participants noted that this is a somewhat natural consequence of some of the constraints that actors are subject to.
 
