@@ -3,7 +3,7 @@ title: "Report from the IAB/W3C Workshop on Age-Based Restrictions on Content Ac
 abbrev: "AGEWS Report"
 category: info
 
-docname: draft-iab-agews.report-latest
+docname: draft-iab-agews-report-latest
 submissiontype: IAB
 number:
 date:
@@ -42,7 +42,7 @@ In October 2025, the Internet Architecture Board and the World Wide Web Consorti
 
 The primary focus was “to perform a thorough examination of the technical and architectural choices that are involved in solutions for age-based restrictions on access to content”, with a goal of “build[ing] a shared understanding of the properties of various proposed approaches.”
 
-See the workshop announcement {{ANNOUNCE=https://datatracker.ietf.org/group/agews/about/}} for details. This report summarises the proceedings of the workshop.
+See the workshop announcement {{?ANNOUNCE=https://datatracker.ietf.org/group/agews/about/}} for details. This report summarises the proceedings of the workshop.
 
 ## Views Expressed in this Report
 
@@ -52,7 +52,7 @@ Furthermore, the content of the report comes from presentations given by worksho
 
 ## Chatham House Rule
 
-Participants agreed to conduct the workshop under the Chatham House Rule {{CHATHAM-HOUSE=https://www.chathamhouse.org/about-us/chatham-house-rule}}, so this report does not attribute statements to individuals or organizations without express permission.  Most submissions to the workshop were public and thus attributable; they are used here to provide substance and context.
+Participants agreed to conduct the workshop under the Chatham House Rule {{?CHATHAM-HOUSE=https://www.chathamhouse.org/about-us/chatham-house-rule}}, so this report does not attribute statements to individuals or organizations without express permission.  Most submissions to the workshop were public and thus attributable; they are used here to provide substance and context.
 
 {{participants}} lists the workshop participants, unless they requested that this information be withheld.
 
@@ -96,7 +96,7 @@ Some participants also noted that approaches where liability rests only on one p
 
 ## Identifying the Roles Involved is Important {#roles}
 
-One of the more substantive discussions on architecture involved presentations on the functional roles involved in any system {{HANSON=https://datatracker.ietf.org/doc/slides-agews-slides-where-enforcement-happens/}}.
+One of the more substantive discussions on architecture involved presentations on the functional roles involved in any system {{?HANSON=https://datatracker.ietf.org/doc/slides-agews-slides-where-enforcement-happens/}}.
 
 Four key roles were identified:
 
@@ -116,7 +116,7 @@ In addition, it was noted that ratings and laws are often limited by geography o
 
 ## A Common Vocabulary is Necessary
 
-Early discussions highlighted how not all participants used the same terminology when referring to different activities or functions. There was a recognition of the value of shared language, and some participants pointed to {{ISO-IEC-27566-1=https://www.iso.org/standard/88143.html}}, which establishes key terms, including:
+Early discussions highlighted how not all participants used the same terminology when referring to different activities or functions. There was a recognition of the value of shared language, and some participants pointed to {{?ISO-IEC-27566-1=https://www.iso.org/standard/88143.html}}, which establishes key terms, including:
 
 Age assurance:
 : Age assurance is an umbrella term for technology that provides some entity with information about the age of a person. This is understood to encompass multiple classes of specific methods, including age verification, age estimation, and age inference. Age assurance does not need to result in a specific age; age ranges are often preferred as these can have better privacy properties.
