@@ -5,7 +5,7 @@
 Network Working Group                                      M. Nottingham
 Internet-Draft                                                          
 Intended status: Informational                                M. Thomson
-Expires: 9 July 2026                                      5 January 2026
+Expires: 10 July 2026                                     6 January 2026
 
 
  Report from the IAB/W3C Workshop on Age-Based Restrictions on Content
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 July 2026.
+   This Internet-Draft will expire on 10 July 2026.
 
 Copyright Notice
 
@@ -197,10 +197,10 @@ Table of Contents
    Human-rights principles were foregrounded as a basis for evaluation.
    Privacy was discussed not only as data minimization but as protection
    from unwanted exposure or interaction.  Freedom of expression and
-   opinion was considered, for how adults and children both have rights
-   to communicate, access information and associate, free from the
-   chilling effects of surveillance or discrimination.The group
-   revisited long-standing Internet design tenets, such as
+   opinion was considered, particularly how adults and children both
+   have rights to communicate, access information and associate, free
+   from the chilling effects of surveillance or discrimination.  The
+   group revisited long-standing Internet design tenets, such as
    decentralization and the end-to-end principle, asking how they should
    inform modern architectures that could easily drift toward central
    control.  Some argued that successful systems must remain open,
@@ -259,8 +259,8 @@ Table of Contents
 
    While this workshop would not provide specific standards proposals or
    take positions on the advisability of regulatory proposals, it was
-   suggested that leadership bodies including the Internet Architecture
-   Board and Technical Architecture Group could be places to make such
+   suggested that leadership bodies, including the Internet Architecture
+   Board and Technical Architecture Group, could be places to make such
    statements.
 
    While the current status quo -- piecemeal, opaque, and privacy-
@@ -370,7 +370,7 @@ Table of Contents
    Age inference:  Age inference draws on external data sources to
       determine whether a person fits a given age range.  This method
       requires identification information, such as an email address or
-      phone number to find relevant records.  For example, evidence of
+      phone number, to find relevant records.  For example, evidence of
       online activity prior to a certain date in the past might support
       the view that a person is older than a target threshold.
 
@@ -417,14 +417,18 @@ Table of Contents
    information is made available to different actors, removing the need
    to trust their handling of private information.  For this to be
    achievable, the use of zero-knowledge proofs or similar cryptographic
-   techniques was seen as a way to limit what each entity learns.
+   techniques was seen as a way to limit what each entity learns.  Some
+   participants noted, however, that these techniques do not address
+   circumvention or censorship risks, still introduce new information
+   into the ecosystem, and may concentrate trust in particular software
+   implementations.
 
    Other aspects of trust were considered equally important from
    different perspectives.  Services that rely on an independent age
    assurance provider need to trust that the provider makes an accurate
    determination of age, at least to the extent that they might be held
    liable in law.  They also need to trust that the service respects
-   privacy, lest the use of a low quality provider could create other
+   privacy, lest the use of a low-quality provider could create other
    forms of liability or drive away potential customers.
 
 3.5.  More than One Approach will be Required
@@ -457,11 +461,11 @@ Table of Contents
    definitive result cannot be achieved.
 
    Some participants noted that inconsistent friction and invasiveness
-   creates a different kind of discrimination, one that can exacerbate
+   create a different kind of discrimination, one that can exacerbate
    existing adverse discrimination.  For example, the accuracy of age
    estimation for people with African heritage is often significantly
    lower than for those with European ancestry [FATE].  This is
-   attributed to the models used being trained and validating using
+   attributed to the models used being trained and validated using
    datasets that have less coverage of some groups.  People who are
    affected by this bias are more likely to need to engage with more
    invasive methods.
@@ -540,7 +544,7 @@ Table of Contents
    access to selected content cannot be assumed to be sufficient.  The
    task of ensuring that children are both kept appropriately safe,
    while preparing them for the challenges they will face in their
-   lifetimes is a massively complex task.
+   lifetimes, is a massively complex task.
 
    A recurrent theme was the old maxim, "it takes a village to raise a
    child".  This concept transcends cultural boundaries and was
@@ -559,14 +563,14 @@ Table of Contents
    discussions often identified subject matter that highlighted the
    challenges inherent in making simplistic classifications.
    Participants acknowledged the importance of the role of the adults
-   that support children in their life journey.  For example, on the
+   who support children in their life journey.  For example, on the
    subject of eating disorders, which can be challenging to classify,
    participants pointed to the importance of being able to recognize
    trends and inform and engage responsible adults.  Ultimately, each
    child has their own challenges and the people around them are in the
    best position to provide the support that best suits the child.
 
-   The concept of age appropriate design was raised on several
+   The concept of age-appropriate design was raised on several
    occasions.  This presents significant privacy challenges in that it
    means providing more information about age to services.  However, it
    was recognized that there are legal and moral obligations on services
@@ -577,7 +581,7 @@ Table of Contents
 
 4.  Security Considerations
 
-   Age verification has significan potential security impact upon the
+   Age verification has a significant potential security impact upon the
    Internet; see Section 3.4.
 
 5.  IANA Considerations
@@ -626,7 +630,7 @@ A.1.  Topic: Introduction
 
 A.2.  Topic: Setting the Scene
 
-   Successfully deploying age restriction at Internet scale has many
+   Successfully deploying age restrictions at Internet scale has many
    considerations and constraints.  We will explore them at a high level
    in order.  The goal is to discuss within the group about the scope of
    topics that the workshop will seek to address.
@@ -650,7 +654,7 @@ A.3.  Topic: Guiding Principles
 
    *  Freedom of Expression
 
-   And effects on internet and web architecture, such as:
+   And effects on the internet and web architecture, such as:
 
    *  Deployment, Extensibility and Evolution
 
@@ -922,7 +926,7 @@ Appendix D.  Desirable and Essential Properties of a Solution
    During the workshop, participants were asked to nominate the
    properties that they believed would be advantageous or even essential
    for a solution in this space to have.  This set of requirements and
-   desiderata were recognized as not all being achievable, as some goals
+   desiderata was recognised as not all being achievable, as some goals
    are in tension with others.
 
 D.1.  Functional
@@ -939,7 +943,7 @@ D.1.  Functional
 
    *  Handles user-generated content
 
-   *  Enables differential experiences or age appropriate design (not
+   *  Enables differential experiences or age-appropriate design (not
       just blocking)
 
    *  Agile by design -- assume adversarial engagement
