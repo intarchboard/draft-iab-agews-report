@@ -5,7 +5,7 @@
 Network Working Group                                      M. Nottingham
 Internet-Draft                                                          
 Intended status: Informational                                M. Thomson
-Expires: 9 July 2026                                      5 January 2026
+Expires: 10 July 2026                                     6 January 2026
 
 
  Report from the IAB/W3C Workshop on Age-Based Restrictions on Content
@@ -25,9 +25,14 @@ Abstract
    those of the workshop participants and do not necessarily reflect IAB
    or W3C views and positions.
 
-Discussion Venues
+About This Document
 
    This note is to be removed before publishing as an RFC.
+
+   The latest revision of this draft can be found at
+   https://intarchboard.github.io/draft-iab-agews-report/draft-iab-
+   agews-report.html.  Status information for this document may be found
+   at https://datatracker.ietf.org/doc/draft-iab-agews-report/.
 
    Source for this draft and an issue tracker can be found at
    https://github.com/intarchboard/draft-iab-agews-report.
@@ -47,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 July 2026.
+   This Internet-Draft will expire on 10 July 2026.
 
 Copyright Notice
 
@@ -88,15 +93,14 @@ Table of Contents
      A.8.  Summary and Reflection
      A.9.  Outcomes
    Appendix B.  Workshop Attendees
-   Appendix C.  Appendix: Potential Impacts
+   Appendix C.  Potential Impacts
      C.1.  Impact on Children
      C.2.  Ecosystem Impact
      C.3.  Implementation and Deployment Difficulties
      C.4.  Security and Privacy
      C.5.  Equity
      C.6.  Societal Impacts
-   Appendix D.  Appendix: Desirable and Essential Properties of a
-           Solution
+   Appendix D.  Desirable and Essential Properties of a Solution
      D.1.  Functional
      D.2.  Accountability and Transparency
      D.3.  Privacy and Security
@@ -120,11 +124,11 @@ Table of Contents
    advocates, business interests, and government stakeholders to discuss
    the nuances of the introduction of such measures.
 
-   The primary focus was “to perform a thorough examination of the
+   The primary focus was "to perform a thorough examination of the
    technical and architectural choices that are involved in solutions
-   for age-based restrictions on access to content”, with a goal of
-   “build[ing] a shared understanding of the properties of various
-   proposed approaches.”
+   for age-based restrictions on access to content", with a goal of
+   "build[ing] a shared understanding of the properties of various
+   proposed approaches."
 
    See the workshop announcement [ANNOUNCE] for details.  This report
    summarises the proceedings of the workshop.
@@ -134,7 +138,7 @@ Table of Contents
    This document is a report on the proceedings of the workshop.  The
    views and positions documented in this report were expressed during
    the workshop by participants and do not necessarily reflect the IAB's
-   or W3C’s views and positions.
+   or W3C's views and positions.
 
    Furthermore, the content of the report comes from presentations given
    by workshop participants and notes taken during the discussions,
@@ -165,7 +169,7 @@ Table of Contents
    of the open architecture of the Internet.
 
    The workshop began with a framing session that emphasized the
-   Internet’s original design as a universal, non-segmented space.
+   Internet's original design as a universal, non-segmented space.
    Participants observed that the web does not natively distinguish
    between adult and child users, and that regulatory trends are
    shifting responsibility from parents and individuals to governments
@@ -177,18 +181,18 @@ Table of Contents
    avoid creating infrastructure that could be repurposed for censorship
    or surveillance.
 
-   Early exchanges focused on terminology and scope—whether “age
-   verification” should be understood narrowly as identity checking or
-   more broadly as “age assurance.” The conversation also touched on the
-   diversity of cultural expectations about parental authority and the
-   variety of legal frameworks emerging across jurisdictions.  Some
-   participants warned of “slippery slope” effects, where mechanisms
+   Early exchanges focused on terminology and scope: whether "age
+   verification" should be understood narrowly as identity checking or
+   more broadly as "age assurance."  The conversation also touched on
+   the diversity of cultural expectations about parental authority and
+   the variety of legal frameworks emerging across jurisdictions.  Some
+   participants warned of "slippery slope" effects, where mechanisms
    designed for age checks might evolve into tools for broader identity
    enforcement.  Several noted that while liability drives many policy
    decisions, technical design should aim to minimize harm and avoid
-   over-centralization.  The question of who bears
-   responsibility—platforms, regulators, or device
-   manufacturers—surfaced repeatedly.
+   over-centralization.  The question of who bears responsibility --
+   platforms, regulators, or device manufacturers -- surfaced
+   repeatedly.
 
    Human-rights principles were foregrounded as a basis for evaluation.
    Privacy was discussed not only as data minimization but as protection
@@ -201,21 +205,21 @@ Table of Contents
    inform modern architectures that could easily drift toward central
    control.  Some argued that successful systems must remain open,
    interoperable, and reversible, while others cautioned that any
-   solution—even a well-intentioned one—would inevitably reshape the
-   Internet’s social and economic balance.
+   solution -- even a well-intentioned one -- would inevitably reshape
+   the Internet's social and economic balance.
 
    Technical sessions explored a spectrum of enforcement models:
    service-based, network-based, and device-based.  Service-enforced
    systems place the compliance burden on websites, risking
    fragmentation and user fatigue from repeated verification flows.
-   Network-based filtering—already common in some jurisdictions—offers
-   broad coverage but limited accuracy and significant privacy trade-
-   offs.  Device-enforced models, in which operating systems mediate
-   access based on a one-time verification, were praised for usability
-   and consistency but criticized for potential concentration of power
-   among major vendors.  Many participants favored a pluralistic
-   approach, recognizing that no single architecture can meet all
-   requirements equally across jurisdictions.
+   Network-based filtering -- already common in some jurisdictions --
+   offers broad coverage but limited accuracy and significant privacy
+   trade-offs.  Device-enforced models, in which operating systems
+   mediate access based on a one-time verification, were praised for
+   usability and consistency but criticized for potential concentration
+   of power among major vendors.  Many participants favored a
+   pluralistic approach, recognizing that no single architecture can
+   meet all requirements equally across jurisdictions.
 
    Privacy-enhancing technologies (PETs) such as anonymous credentials
    and zero-knowledge proofs were discussed as promising, though not
@@ -259,12 +263,13 @@ Table of Contents
    Board and Technical Architecture Group, could be places to make such
    statements.
 
-   While the current status quo—piecemeal, opaque, and privacy-eroding-
-   was unsatisfactory to most participants, many cautioned that hasty
-   solutions could entrench worse problems.  This led to growing
-   recognition that protecting children online must not come at the
-   expense of the Internet’s foundational freedoms, and that sustained,
-   multi-stakeholder collaboration is the only viable path forward.
+   While the current status quo -- piecemeal, opaque, and privacy-
+   eroding -- was unsatisfactory to most participants, many cautioned
+   that hasty solutions could entrench worse problems.  This led to
+   growing recognition that protecting children online must not come at
+   the expense of the Internet's foundational freedoms, and that
+   sustained, multi-stakeholder collaboration is the only viable path
+   forward.
 
 3.  Key Takeaways
 
@@ -295,8 +300,8 @@ Table of Contents
    clients.
 
    Some participants also noted that approaches where liability rests
-   only on one party – for example, a content or platform provider – are
-   unlikely to lead to the desired results, because this creates
+   only on one party -- for example, a content or platform provider --
+   are unlikely to lead to the desired results, because this creates
    disincentives for the cooperation that is necessary for meaningful
    reduction of harms.  An approach that considers the roles of the
    young, their parents, device manufacturers, operating system vendors,
@@ -373,8 +378,8 @@ Table of Contents
       something based on the age of the person requesting access.
 
    Relating these functions to the roles described in Section 3.2, all
-   age assurance types fit the “verifier” role, where age gating applies
-   to the “enforcer” role.
+   age assurance types fit the "verifier" role, where age gating applies
+   to the "enforcer" role.
 
 3.4.  Privacy and Trust Expectations Need Further Discussion
 
@@ -391,18 +396,18 @@ Table of Contents
    architecture, those actors might need to be trusted to handle that
    private information responsibly.  In that approach, the importance of
    different safeguards on personal information, such as the prompt
-   disposal of any personal information – a practice that many age
-   verification providers promise – becomes a core part of what might
+   disposal of any personal information -- a practice that many age
+   verification providers promise -- becomes a core part of what might
    allow people to trust that system.
 
    Several people observed that the sort of trust that is asked from
    people might not correspond with the role that certain entities play
-   in people’s lives.  This will depend on context, where “adult”
+   in people's lives.  This will depend on context, where "adult"
    content providers generally serve anonymous users, whereas social
    media often already has a lot of personal information on users.
 
-   In either case, users might have no prior knowledge of – or trust in
-   – providers that are contracted to provide age assurance functions.
+   In either case, users might have no prior knowledge of -- or trust in
+   -- providers that are contracted to provide age assurance functions.
    It was observed that one likely consequence of some arrangements is
    to train people to become more trusting of strange sites that ask for
    personal information.
@@ -450,8 +455,8 @@ Table of Contents
 
    Discussion often came back to an approach that is increasingly
    recommended for use in age verification, where multiple methods are
-   applied in series.  Checks with lower friction – those that require
-   less active participation from people – or that are less invasive of
+   applied in series.  Checks with lower friction -- those that require
+   less active participation from people -- or that are less invasive of
    privacy are attempted first.  Successive checks are only used when a
    definitive result cannot be achieved.
 
@@ -476,8 +481,8 @@ Table of Contents
 
    *  Some people who should be blocked from accessing content or
       services will find ways to circumvent restrictions.  In this
-      context, the term “advanced persistent teenager” was recognized as
-      characterizing the nature of the “adversary”: individuals who are
+      context, the term "advanced persistent teenager" was recognized as
+      characterizing the nature of the "adversary": individuals who are
       considered too young to access content, but who are highly
       motivated, technically sophisticated, and have time to spare.
 
@@ -541,8 +546,8 @@ Table of Contents
    while preparing them for the challenges they will face in their
    lifetimes, is a massively complex task.
 
-   A recurrent theme was the old maxim, “it takes a village to raise a
-   child”. This concept transcends cultural boundaries and was
+   A recurrent theme was the old maxim, "it takes a village to raise a
+   child".  This concept transcends cultural boundaries and was
    recognized.  The role of parents, guardians, educators, governments,
    and online services in creating an environment in which children can
    thrive and grow.
@@ -613,6 +618,9 @@ Table of Contents
               enforcement-happens/>.
 
 Appendix A.  Workshop Agenda
+
+   The following sections cover each of the main topics of discussion
+   sessions.
 
 A.1.  Topic: Introduction
 
@@ -687,7 +695,7 @@ A.6.  Topic: Available Techniques
 
    *  Age estimation: including biometrics and data analysis
 
-   *  Age “inference” approaches
+   *  Age "inference" approaches
 
    *  In-network solutions
 
@@ -797,10 +805,10 @@ Appendix B.  Workshop Attendees
 
    *  Tara Whalen, World Wide Web Consortium (PC)
 
-Appendix C.  Appendix: Potential Impacts
+Appendix C.  Potential Impacts
 
    During the workshop, participants were asked to name potential
-   impacts - whether positive or negative - that could be seen in
+   impacts -- whether positive or negative -- that could be seen in
    association with the introduction of an age control mechanism.  This
    list is not exhaustive, and does not imply that all points were
    agreed to by all participants.
@@ -813,7 +821,7 @@ C.1.  Impact on Children
 
    *  Kids lose the ability to explore on their own
 
-   *  Diminishing children’s rights
+   *  Diminishing children's rights
 
 C.2.  Ecosystem Impact
 
@@ -873,7 +881,7 @@ C.4.  Security and Privacy
 
    *  Needing to trust someone on their word without evidence
 
-   *  Normalizing online identity requests - increase to phishing risk
+   *  Normalizing online identity requests -- increase to phishing risk
 
    *  Data breaches
 
@@ -889,7 +897,7 @@ C.5.  Equity
 
    *  Lack of availability of redress mechanisms
 
-   *  Users’ rights to restitution
+   *  Users' rights to restitution
 
    *  Loss of control over and access to data
 
@@ -911,9 +919,9 @@ C.6.  Societal Impacts
 
    *  Advancing foreign policy goals with censorship
 
-   *  Abuse of guardians who don’t cut off their wards
+   *  Abuse of guardians who don't cut off their wards
 
-Appendix D.  Appendix: Desirable and Essential Properties of a Solution
+Appendix D.  Desirable and Essential Properties of a Solution
 
    During the workshop, participants were asked to nominate the
    properties that they believed would be advantageous or even essential
@@ -923,7 +931,7 @@ Appendix D.  Appendix: Desirable and Essential Properties of a Solution
 
 D.1.  Functional
 
-   *  Underage don’t access content that’s inappropriate
+   *  Underage don't access content that's inappropriate
 
    *  Not trivially by-passable
 
@@ -938,7 +946,7 @@ D.1.  Functional
    *  Enables differential experiences or age-appropriate design (not
       just blocking)
 
-   *  Agile by design - assume adversarial engagement
+   *  Agile by design -- assume adversarial engagement
 
    *  Difficult to bypass
 
@@ -966,7 +974,7 @@ D.3.  Privacy and Security
 
    *  Phishing-resistant
 
-   *  Doesn’t process or transfer any more data than is necessary
+   *  Doesn't process or transfer any more data than is necessary
 
    *  Avoids becoming a tracking vector
 
@@ -974,7 +982,7 @@ D.4.  Equity
 
    *  Inclusive
 
-   *  Fair - avoids or minimises bias
+   *  Fair -- avoids or minimises bias
 
    *  Does not create inequalities (e.g., across education, other
       properties)
@@ -1030,7 +1038,7 @@ D.7.  Implementation and Deployment
 
    *  Enforceable by a good mix of technology and law
 
-   *  Broad deployability - not expensive or complex
+   *  Broad deployability -- not expensive or complex
 
    *  Decentralized
 
@@ -1047,7 +1055,7 @@ D.8.  General / Other
 
    *  Not a single, sole solution
 
-   *  Stable - resilient
+   *  Stable -- resilient
 
    *  Alignment of incentives among participants
 

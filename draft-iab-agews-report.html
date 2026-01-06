@@ -8,11 +8,12 @@
 <meta content="Mark Nottingham" name="author">
 <meta content="Martin Thomson" name="author">
 <meta content="
-       The Workshop on Age-Based Restrictions on Content Access was convened by the Internet Architecture Board (IAB) and World Wide Web Consortium (W3C)  in October 2025. This report summarizes its significant points of discussion and identifies topics that may warrant further consideration and work. 
+       The Workshop on Age-Based Restrictions on Content Access was convened by the Internet Architecture Board (IAB) and World Wide Web Consortium (W3C) in October 2025. This report summarizes its significant points of discussion and identifies topics that may warrant further consideration and work. 
        Note that this document is a report on the proceedings of the workshop. The views and positions documented in this report are those of the workshop participants and do not necessarily reflect IAB or W3C views and positions. 
     " name="description">
 <meta content="xml2rfc 3.31.0" name="generator">
 <meta content="IAB workshop" name="keyword">
+<meta content="age gate" name="keyword">
 <meta content="draft-iab-agews-report-latest" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.31.0
@@ -1049,7 +1050,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Nottingham &amp; Thomson</td>
-<td class="center">Expires 9 July 2026</td>
+<td class="center">Expires 10 July 2026</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1062,12 +1063,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-iab-agews-report-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2026-01-05" class="published">5 January 2026</time>
+<time datetime="2026-01-06" class="published">6 January 2026</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2026-07-09">9 July 2026</time></dd>
+<dd class="expires"><time datetime="2026-07-10">10 July 2026</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1082,16 +1083,19 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <h1 id="title">Report from the IAB/W3C Workshop on Age-Based Restrictions on Content Access</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
-<p id="section-abstract-1">The Workshop on Age-Based Restrictions on Content Access was convened by the Internet Architecture Board (IAB) and World Wide Web Consortium (W3C)  in October 2025. This report summarizes its significant points of discussion and identifies topics that may warrant further consideration and work.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-1">The Workshop on Age-Based Restrictions on Content Access was convened by the Internet Architecture Board (IAB) and World Wide Web Consortium (W3C) in October 2025. This report summarizes its significant points of discussion and identifies topics that may warrant further consideration and work.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 <p id="section-abstract-2">Note that this document is a report on the proceedings of the workshop. The views and positions documented in this report are those of the workshop participants and do not necessarily reflect IAB or W3C views and positions.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
-      <h2 id="name-discussion-venues">
-<a href="#name-discussion-venues" class="section-name selfRef">Discussion Venues</a>
+      <h2 id="name-about-this-document">
+<a href="#name-about-this-document" class="section-name selfRef">About This Document</a>
       </h2>
 <p id="section-note.1-1">This note is to be removed before publishing as an RFC.<a href="#section-note.1-1" class="pilcrow">¶</a></p>
-<p id="section-note.1-2">Source for this draft and an issue tracker can be found at
-    <span><a href="https://github.com/intarchboard/draft-iab-agews-report">https://github.com/intarchboard/draft-iab-agews-report</a></span>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
+<p id="section-note.1-2">
+        The latest revision of this draft can be found at <span><a href="https://intarchboard.github.io/draft-iab-agews-report/draft-iab-agews-report.html">https://intarchboard.github.io/draft-iab-agews-report/draft-iab-agews-report.html</a></span>.
+        Status information for this document may be found at <span><a href="https://datatracker.ietf.org/doc/draft-iab-agews-report/">https://datatracker.ietf.org/doc/draft-iab-agews-report/</a></span>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
+<p id="section-note.1-3">Source for this draft and an issue tracker can be found at
+        <span><a href="https://github.com/intarchboard/draft-iab-agews-report">https://github.com/intarchboard/draft-iab-agews-report</a></span>.<a href="#section-note.1-3" class="pilcrow">¶</a></p>
 </section>
 <div id="status-of-memo">
 <section id="section-boilerplate.1">
@@ -1112,7 +1116,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 9 July 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 10 July 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1223,7 +1227,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="section-toc.1-1.8.1"><a href="#appendix-B" class="auto internal xref">Appendix B</a>.  <a href="#name-workshop-attendees" class="internal xref">Workshop Attendees</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.9">
-            <p id="section-toc.1-1.9.1"><a href="#appendix-C" class="auto internal xref">Appendix C</a>.  <a href="#name-appendix-potential-impacts" class="internal xref">Appendix: Potential Impacts</a></p>
+            <p id="section-toc.1-1.9.1"><a href="#appendix-C" class="auto internal xref">Appendix C</a>.  <a href="#name-potential-impacts" class="internal xref">Potential Impacts</a></p>
 <ul class="compact toc ulBare ulEmpty">
 <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.9.2.1">
                 <p id="section-toc.1-1.9.2.1.1"><a href="#appendix-C.1" class="auto internal xref">C.1</a>.  <a href="#name-impact-on-children" class="internal xref">Impact on Children</a></p>
@@ -1246,7 +1250,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.10">
-            <p id="section-toc.1-1.10.1"><a href="#appendix-D" class="auto internal xref">Appendix D</a>.  <a href="#name-appendix-desirable-and-esse" class="internal xref">Appendix: Desirable and Essential Properties of a Solution</a></p>
+            <p id="section-toc.1-1.10.1"><a href="#appendix-D" class="auto internal xref">Appendix D</a>.  <a href="#name-desirable-and-essential-pro" class="internal xref">Desirable and Essential Properties of a Solution</a></p>
 <ul class="compact toc ulBare ulEmpty">
 <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.10.2.1">
                 <p id="section-toc.1-1.10.2.1.1"><a href="#appendix-D.1" class="auto internal xref">D.1</a>.  <a href="#name-functional" class="internal xref">Functional</a></p>
@@ -1288,14 +1292,14 @@ svg :is([fill="white"], [fill^="#fff"]) {
       </h2>
 <p id="section-1-1">Regulators and legislators around the world are increasingly restricting what can be made available to young people on the Internet, in an effort to reduce the online harms that they encounter.<a href="#section-1-1" class="pilcrow">¶</a></p>
 <p id="section-1-2">In October 2025, the Internet Architecture Board and the World Wide Web Consortium convened the Workshop on Age-Based Restrictions on Content Access. It brought together technologists, civil society advocates, business interests, and government stakeholders to discuss the nuances of the introduction of such measures.<a href="#section-1-2" class="pilcrow">¶</a></p>
-<p id="section-1-3">The primary focus was “to perform a thorough examination of the technical and architectural choices that are involved in solutions for age-based restrictions on access to content”, with a goal of “build[ing] a shared understanding of the properties of various proposed approaches.”<a href="#section-1-3" class="pilcrow">¶</a></p>
+<p id="section-1-3">The primary focus was "to perform a thorough examination of the technical and architectural choices that are involved in solutions for age-based restrictions on access to content", with a goal of "build[ing] a shared understanding of the properties of various proposed approaches."<a href="#section-1-3" class="pilcrow">¶</a></p>
 <p id="section-1-4">See the workshop announcement <span>[<a href="#ANNOUNCE" class="cite xref">ANNOUNCE</a>]</span> for details. This report summarises the proceedings of the workshop.<a href="#section-1-4" class="pilcrow">¶</a></p>
 <div id="views-expressed-in-this-report">
 <section id="section-1.1">
         <h3 id="name-views-expressed-in-this-rep">
 <a href="#section-1.1" class="section-number selfRef">1.1. </a><a href="#name-views-expressed-in-this-rep" class="section-name selfRef">Views Expressed in this Report</a>
         </h3>
-<p id="section-1.1-1">This document is a report on the proceedings of the workshop. The views and positions documented in this report were expressed during the workshop by participants and do not necessarily reflect the IAB's or W3C’s views and positions.<a href="#section-1.1-1" class="pilcrow">¶</a></p>
+<p id="section-1.1-1">This document is a report on the proceedings of the workshop. The views and positions documented in this report were expressed during the workshop by participants and do not necessarily reflect the IAB's or W3C's views and positions.<a href="#section-1.1-1" class="pilcrow">¶</a></p>
 <p id="section-1.1-2">Furthermore, the content of the report comes from presentations given by workshop participants and notes taken during the discussions, without interpretation or validation. Thus, the content of this report follows the flow and dialogue of the workshop but does not attempt to capture a consensus.<a href="#section-1.1-2" class="pilcrow">¶</a></p>
 </section>
 </div>
@@ -1316,16 +1320,16 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="#section-2" class="section-number selfRef">2. </a><a href="#name-overview-of-the-workshop" class="section-name selfRef">Overview of the Workshop</a>
       </h2>
 <p id="section-2-1">The IAB/W3C workshop on Age-Based Restrictions on Content Access brought together a diverse group of participants from technical, policy, regulatory, and research communities to examine how the Internet might accommodate demands for age-based access controls. Over three days, discussions traversed the intersection of technology, governance, human rights, and social expectations, with a recurring emphasis on privacy, accountability, and the preservation of the open architecture of the Internet.<a href="#section-2-1" class="pilcrow">¶</a></p>
-<p id="section-2-2">The workshop began with a framing session that emphasized the Internet’s original design as a universal, non-segmented space. Participants observed that the web does not natively distinguish between adult and child users, and that regulatory trends are shifting responsibility from parents and individuals to governments and service providers. The scope of discussion was tightly defined: not the morality or policy of age restrictions, but the technical, architectural, and human-rights implications of enforcing them. The challenge, many participants agreed, lay in building mechanisms that are accurate, respect privacy, maintain global interoperability, and avoid creating infrastructure that could be repurposed for censorship or surveillance.<a href="#section-2-2" class="pilcrow">¶</a></p>
-<p id="section-2-3">Early exchanges focused on terminology and scope—whether “age verification” should be understood narrowly as identity checking or more broadly as “age assurance.” The conversation also touched on the diversity of cultural expectations about parental authority and the variety of legal frameworks emerging across jurisdictions. Some participants warned of “slippery slope” effects, where mechanisms designed for age checks might evolve into tools for broader identity enforcement. Several noted that while liability drives many policy decisions, technical design should aim to minimize harm and avoid over-centralization. The question of who bears responsibility—platforms, regulators, or device manufacturers—surfaced repeatedly.<a href="#section-2-3" class="pilcrow">¶</a></p>
-<p id="section-2-4">Human-rights principles were foregrounded as a basis for evaluation. Privacy was discussed not only as data minimization but as protection from unwanted exposure or interaction. Freedom of expression and opinion was considered, particularly how adults and children both have rights to communicate, access information and associate, free from the chilling effects of surveillance or discrimination. The group revisited long-standing Internet design tenets, such as decentralization and the end-to-end principle, asking how they should inform modern architectures that could easily drift toward central control. Some argued that successful systems must remain open, interoperable, and reversible, while others cautioned that any solution—even a well-intentioned one—would inevitably reshape the Internet’s social and economic balance.<a href="#section-2-4" class="pilcrow">¶</a></p>
-<p id="section-2-5">Technical sessions explored a spectrum of enforcement models: service-based, network-based, and device-based. Service-enforced systems place the compliance burden on websites, risking fragmentation and user fatigue from repeated verification flows. Network-based filtering—already common in some jurisdictions—offers broad coverage but limited accuracy and significant privacy trade-offs. Device-enforced models, in which operating systems mediate access based on a one-time verification, were praised for usability and consistency but criticized for potential concentration of power among major vendors. Many participants favored a pluralistic approach, recognizing that no single architecture can meet all requirements equally across jurisdictions.<a href="#section-2-5" class="pilcrow">¶</a></p>
+<p id="section-2-2">The workshop began with a framing session that emphasized the Internet's original design as a universal, non-segmented space. Participants observed that the web does not natively distinguish between adult and child users, and that regulatory trends are shifting responsibility from parents and individuals to governments and service providers. The scope of discussion was tightly defined: not the morality or policy of age restrictions, but the technical, architectural, and human-rights implications of enforcing them. The challenge, many participants agreed, lay in building mechanisms that are accurate, respect privacy, maintain global interoperability, and avoid creating infrastructure that could be repurposed for censorship or surveillance.<a href="#section-2-2" class="pilcrow">¶</a></p>
+<p id="section-2-3">Early exchanges focused on terminology and scope: whether "age verification" should be understood narrowly as identity checking or more broadly as "age assurance." The conversation also touched on the diversity of cultural expectations about parental authority and the variety of legal frameworks emerging across jurisdictions. Some participants warned of "slippery slope" effects, where mechanisms designed for age checks might evolve into tools for broader identity enforcement. Several noted that while liability drives many policy decisions, technical design should aim to minimize harm and avoid over-centralization. The question of who bears responsibility -- platforms, regulators, or device manufacturers -- surfaced repeatedly.<a href="#section-2-3" class="pilcrow">¶</a></p>
+<p id="section-2-4">Human-rights principles were foregrounded as a basis for evaluation. Privacy was discussed not only as data minimization but as protection from unwanted exposure or interaction. Freedom of expression and opinion was considered, particularly how adults and children both have rights to communicate, access information and associate, free from the chilling effects of surveillance or discrimination. The group revisited long-standing Internet design tenets, such as decentralization and the end-to-end principle, asking how they should inform modern architectures that could easily drift toward central control. Some argued that successful systems must remain open, interoperable, and reversible, while others cautioned that any solution -- even a well-intentioned one -- would inevitably reshape the Internet's social and economic balance.<a href="#section-2-4" class="pilcrow">¶</a></p>
+<p id="section-2-5">Technical sessions explored a spectrum of enforcement models: service-based, network-based, and device-based. Service-enforced systems place the compliance burden on websites, risking fragmentation and user fatigue from repeated verification flows. Network-based filtering -- already common in some jurisdictions -- offers broad coverage but limited accuracy and significant privacy trade-offs. Device-enforced models, in which operating systems mediate access based on a one-time verification, were praised for usability and consistency but criticized for potential concentration of power among major vendors. Many participants favored a pluralistic approach, recognizing that no single architecture can meet all requirements equally across jurisdictions.<a href="#section-2-5" class="pilcrow">¶</a></p>
 <p id="section-2-6">Privacy-enhancing technologies (PETs) such as anonymous credentials and zero-knowledge proofs were discussed as promising, though not necessarily sufficient, tools. Some participants cautioned that PETs cannot prevent circumvention or censorship, are relatively untested, and that open-sourcing code does not automatically make systems trustworthy. A recurring concern was the growing influence of digital-identity frameworks: while credential-based verification may work well in countries with unified ID systems, it risks excluding people without access to such credentials and entrenching inequalities.<a href="#section-2-6" class="pilcrow">¶</a></p>
 <p id="section-2-7">Discussions on parental controls and network operator roles highlighted practical tensions between effectiveness, usability, and user rights. Although some participants saw value in layered approaches combining device, service, and network measures, others noted the high complexity and low adoption of parental-control tools even where available. The workshop also revisited the ethical dimension: whether designing better tools might unintentionally legitimize over-broad or intrusive regulation.<a href="#section-2-7" class="pilcrow">¶</a></p>
 <p id="section-2-8">By the third day, participants reflected on the need for collaboration across disciplines and institutions. Many acknowledged that while complete solutions are unlikely in the short term, articulating shared vocabulary, architectural roles, and evaluation properties was an essential foundation. There was broad agreement that future work should map risks against possible architectures, document trade-offs in neutral terms, and communicate clearly with policymakers to prevent ill-informed mandates that could undermine Internet openness.<a href="#section-2-8" class="pilcrow">¶</a></p>
 <p id="section-2-9">The meeting closed with reflections on what process might be followed to take proposed solutions through a standards process. Both IETF and W3C representatives outlined how exploratory work might proceed within their respective frameworks, stressing that standardization would require consensus, open participation, and time.<a href="#section-2-9" class="pilcrow">¶</a></p>
 <p id="section-2-10">While this workshop would not provide specific standards proposals or take positions on the advisability of regulatory proposals, it was suggested that leadership bodies, including the Internet Architecture Board and Technical Architecture Group, could be places to make such statements.<a href="#section-2-10" class="pilcrow">¶</a></p>
-<p id="section-2-11">While the current status quo—piecemeal, opaque, and privacy-eroding-was unsatisfactory to most participants, many cautioned that hasty solutions could entrench worse problems. This led to growing recognition that protecting children online must not come at the expense of the Internet’s foundational freedoms, and that sustained, multi-stakeholder collaboration is the only viable path forward.<a href="#section-2-11" class="pilcrow">¶</a></p>
+<p id="section-2-11">While the current status quo -- piecemeal, opaque, and privacy-eroding -- was unsatisfactory to most participants, many cautioned that hasty solutions could entrench worse problems. This led to growing recognition that protecting children online must not come at the expense of the Internet's foundational freedoms, and that sustained, multi-stakeholder collaboration is the only viable path forward.<a href="#section-2-11" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="key-takeaways">
@@ -1342,7 +1346,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <p id="section-3.1-1">Many participants remarked that the workshop allowed them to appreciate perspectives that they had not fully considered previously. Although several substantial efforts have included industry, civil society, government, and technologists, collaboration across all stakeholders appears to be rare.<a href="#section-3.1-1" class="pilcrow">¶</a></p>
 <p id="section-3.1-2">This was especially evident when considering the involvement of the technical community. Although there have been a number of consultations by governments and other bodies, involvement of the technical community is often limited to participation by the policy representatives of tech companies. This can lead to an underappreciation of the architectural impact and related harms of the design decisions made.<a href="#section-3.1-2" class="pilcrow">¶</a></p>
 <p id="section-3.1-3">Architectures effective for the goals and less likely to have profound harmful consequences may require the cooperation of multiple actors fulfilling different <a href="#roles" class="auto internal xref">Section 3.2</a>. To that end, standardization may be especially important for interoperable, collaborative development of architectures involving both servers and clients.<a href="#section-3.1-3" class="pilcrow">¶</a></p>
-<p id="section-3.1-4">Some participants also noted that approaches where liability rests only on one party – for example, a content or platform provider – are unlikely to lead to the desired results, because this creates disincentives for the cooperation that is necessary for meaningful reduction of harms. An approach that considers the roles of the young, their parents, device manufacturers, operating system vendors, content providers, and society overall was believed to be more likely to succeed.<a href="#section-3.1-4" class="pilcrow">¶</a></p>
+<p id="section-3.1-4">Some participants also noted that approaches where liability rests only on one party -- for example, a content or platform provider -- are unlikely to lead to the desired results, because this creates disincentives for the cooperation that is necessary for meaningful reduction of harms. An approach that considers the roles of the young, their parents, device manufacturers, operating system vendors, content providers, and society overall was believed to be more likely to succeed.<a href="#section-3.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="roles">
@@ -1410,7 +1414,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </dd>
         <dd class="break"></dd>
 </dl>
-<p id="section-3.3-3">Relating these functions to the roles described in <a href="#roles" class="auto internal xref">Section 3.2</a>, all age assurance types fit the “verifier” role, where age gating applies to the “enforcer” role.<a href="#section-3.3-3" class="pilcrow">¶</a></p>
+<p id="section-3.3-3">Relating these functions to the roles described in <a href="#roles" class="auto internal xref">Section 3.2</a>, all age assurance types fit the "verifier" role, where age gating applies to the "enforcer" role.<a href="#section-3.3-3" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="trust">
@@ -1420,9 +1424,9 @@ svg :is([fill="white"], [fill^="#fff"]) {
         </h3>
 <p id="section-3.4-1">Privacy was a recurrent theme at the workshop, but it was clear that there are multiple considerations at play when talking about privacy. The question of privacy was often caught up in discussions of trust, where approaches each depend on different sorts of trust between the different actors.<a href="#section-3.4-1" class="pilcrow">¶</a></p>
 <p id="section-3.4-2">Participants identified privacy as important to maintaining trust in any system that involves age assurance or age gating.<a href="#section-3.4-2" class="pilcrow">¶</a></p>
-<p id="section-3.4-3">Where private information is used by the actors in a proposed architecture, those actors might need to be trusted to handle that private information responsibly. In that approach, the importance of different safeguards on personal information, such as the prompt disposal of any personal information – a practice that many age verification providers promise – becomes a core part of what might allow people to trust that system.<a href="#section-3.4-3" class="pilcrow">¶</a></p>
-<p id="section-3.4-4">Several people observed that the sort of trust that is asked from people might not correspond with the role that certain entities play in people’s lives. This will depend on context, where “adult” content providers generally serve anonymous users, whereas social media often already has a lot of personal information on users.<a href="#section-3.4-4" class="pilcrow">¶</a></p>
-<p id="section-3.4-5">In either case, users might have no prior knowledge of – or trust in – providers that are contracted to provide age assurance functions. It was observed that one likely consequence of some arrangements is to train people to become more trusting of strange sites that ask for personal information.<a href="#section-3.4-5" class="pilcrow">¶</a></p>
+<p id="section-3.4-3">Where private information is used by the actors in a proposed architecture, those actors might need to be trusted to handle that private information responsibly. In that approach, the importance of different safeguards on personal information, such as the prompt disposal of any personal information -- a practice that many age verification providers promise -- becomes a core part of what might allow people to trust that system.<a href="#section-3.4-3" class="pilcrow">¶</a></p>
+<p id="section-3.4-4">Several people observed that the sort of trust that is asked from people might not correspond with the role that certain entities play in people's lives. This will depend on context, where "adult" content providers generally serve anonymous users, whereas social media often already has a lot of personal information on users.<a href="#section-3.4-4" class="pilcrow">¶</a></p>
+<p id="section-3.4-5">In either case, users might have no prior knowledge of -- or trust in -- providers that are contracted to provide age assurance functions. It was observed that one likely consequence of some arrangements is to train people to become more trusting of strange sites that ask for personal information.<a href="#section-3.4-5" class="pilcrow">¶</a></p>
 <p id="section-3.4-6">Alternatively, it might be that trust in the system is not vested in actors, but instead the system as a whole. This is possible if no information is made available to different actors, removing the need to trust their handling of private information. For this to be achievable, the use of zero-knowledge proofs or similar cryptographic techniques was seen as a way to limit what each entity learns. Some participants noted, however, that these techniques do not address circumvention or censorship risks, still introduce new information into the ecosystem, and may concentrate trust in particular software implementations.<a href="#section-3.4-6" class="pilcrow">¶</a></p>
 <p id="section-3.4-7">Other aspects of trust were considered equally important from different perspectives.  Services that rely on an independent age assurance provider need to trust that the provider makes an accurate determination of age, at least to the extent that they might be held liable in law.  They also need to trust that the service respects privacy, lest the use of a low-quality provider could create other forms of liability or drive away potential customers.<a href="#section-3.4-7" class="pilcrow">¶</a></p>
 </section>
@@ -1444,7 +1448,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="section-3.5-2.3.1">Age inference techniques can fail due to lack of information.<a href="#section-3.5-2.3.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
-<p id="section-3.5-3">Discussion often came back to an approach that is increasingly recommended for use in age verification, where multiple methods are applied in series. Checks with lower friction – those that require less active participation from people – or that are less invasive of privacy are attempted first. Successive checks are only used when a definitive result cannot be achieved.<a href="#section-3.5-3" class="pilcrow">¶</a></p>
+<p id="section-3.5-3">Discussion often came back to an approach that is increasingly recommended for use in age verification, where multiple methods are applied in series. Checks with lower friction -- those that require less active participation from people -- or that are less invasive of privacy are attempted first. Successive checks are only used when a definitive result cannot be achieved.<a href="#section-3.5-3" class="pilcrow">¶</a></p>
 <p id="section-3.5-4">Some participants noted that inconsistent friction and invasiveness create a different kind of discrimination, one that can exacerbate existing adverse discrimination. For example, the accuracy of age estimation for people with African heritage is often significantly lower than for those with European ancestry <span>[<a href="#FATE" class="cite xref">FATE</a>]</span>. This is attributed to the models used being trained and validated using datasets that have less coverage of some groups. People who are affected by this bias are more likely to need to engage with more invasive methods.<a href="#section-3.5-4" class="pilcrow">¶</a></p>
 <p id="section-3.5-5">One consequence of having multiple imperfect techniques is the need to recognize that any system will be imperfect. That cuts in both directions:<a href="#section-3.5-5" class="pilcrow">¶</a></p>
 <ul class="normal">
@@ -1452,7 +1456,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="section-3.5-6.1.1">Some people will never be able to satisfy age assurance checks and will therefore be excluded by strict assurance mandates. Here, discussions acknowledged that purely technical systems are likely inadequate.<a href="#section-3.5-6.1.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-3.5-6.2">
-            <p id="section-3.5-6.2.1">Some people who should be blocked from accessing content or services will find ways to circumvent restrictions. In this context, the term “advanced persistent teenager” was recognized as characterizing the nature of the “adversary”: individuals who are considered too young to access content, but who are highly motivated, technically sophisticated, and have time to spare.<a href="#section-3.5-6.2.1" class="pilcrow">¶</a></p>
+            <p id="section-3.5-6.2.1">Some people who should be blocked from accessing content or services will find ways to circumvent restrictions. In this context, the term "advanced persistent teenager" was recognized as characterizing the nature of the "adversary": individuals who are considered too young to access content, but who are highly motivated, technically sophisticated, and have time to spare.<a href="#section-3.5-6.2.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-3.5-6.3">
             <p id="section-3.5-6.3.1">Offering more choices to people can improve privacy because they get to choose the method that suits them. However, when a chosen method fails, having to engage with additional methods has a higher privacy cost.<a href="#section-3.5-6.3.1" class="pilcrow">¶</a></p>
@@ -1481,7 +1485,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="#section-3.7" class="section-number selfRef">3.7. </a><a href="#name-safety-requires-more-than-a" class="section-name selfRef">Safety Requires More than a Technical Solution</a>
         </h3>
 <p id="section-3.7-1">Experts in child safety frequently acknowledged that restricting access to selected content cannot be assumed to be sufficient. The task of ensuring that children are both kept appropriately safe, while preparing them for the challenges they will face in their lifetimes, is a massively complex task.<a href="#section-3.7-1" class="pilcrow">¶</a></p>
-<p id="section-3.7-2">A recurrent theme was the old maxim, “it takes a village to raise a child”. This concept transcends cultural boundaries and was recognized. The role of parents, guardians, educators, governments, and online services in creating an environment in which children can thrive and grow.<a href="#section-3.7-2" class="pilcrow">¶</a></p>
+<p id="section-3.7-2">A recurrent theme was the old maxim, "it takes a village to raise a child". This concept transcends cultural boundaries and was recognized. The role of parents, guardians, educators, governments, and online services in creating an environment in which children can thrive and grow.<a href="#section-3.7-2" class="pilcrow">¶</a></p>
 <p id="section-3.7-3">Content and service restrictions are likely only a small part of a suite of actions that combine to provide children with protection, but also support and encouragement. This theme was raised several times, despite the goal of the discussion being to explore technical and architectural questions.<a href="#section-3.7-3" class="pilcrow">¶</a></p>
 <p id="section-3.7-4">Restrictions are necessarily binary and lacking in nuance. Though questions of what to restrict were out of scope for the workshop, discussions often identified subject matter that highlighted the challenges inherent in making simplistic classifications. Participants acknowledged the importance of the role of the adults who support children in their life journey. For example, on the subject of eating disorders, which can be challenging to classify, participants pointed to the importance of being able to recognize trends and inform and engage responsible adults. Ultimately, each child has their own challenges and the people around them are in the best position to provide the support that best suits the child.<a href="#section-3.7-4" class="pilcrow">¶</a></p>
 <p id="section-3.7-5">The concept of age-appropriate design was raised on several occasions. This presents significant privacy challenges in that it means providing more information about age to services. However, it was recognized that there are legal and moral obligations on services to cater to the needs of children of different age groups. This is a more complex problem space than binary age restrictions, as it requires a recognition of the different needs of children as they get older.<a href="#section-3.7-5" class="pilcrow">¶</a></p>
@@ -1543,6 +1547,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
       <h2 id="name-workshop-agenda">
 <a href="#appendix-A" class="section-number selfRef">Appendix A. </a><a href="#name-workshop-agenda" class="section-name selfRef">Workshop Agenda</a>
       </h2>
+<p id="appendix-A-1">The following sections cover each of the main topics of discussion sessions.<a href="#appendix-A-1" class="pilcrow">¶</a></p>
 <div id="topic-introduction">
 <section id="appendix-A.1">
         <h3 id="name-topic-introduction">
@@ -1632,7 +1637,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="appendix-A.6-2.2.1">Age estimation: including biometrics and data analysis<a href="#appendix-A.6-2.2.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-A.6-2.3">
-            <p id="appendix-A.6-2.3.1">Age “inference” approaches<a href="#appendix-A.6-2.3.1" class="pilcrow">¶</a></p>
+            <p id="appendix-A.6-2.3.1">Age "inference" approaches<a href="#appendix-A.6-2.3.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-A.6-2.4">
             <p id="appendix-A.6-2.4.1">In-network solutions<a href="#appendix-A.6-2.4.1" class="pilcrow">¶</a></p>
@@ -1799,12 +1804,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
       </ul>
 </section>
 </div>
-<div id="appendix-potential-impacts">
+<div id="potential-impacts">
 <section id="appendix-C">
-      <h2 id="name-appendix-potential-impacts">
-<a href="#appendix-C" class="section-number selfRef">Appendix C. </a><a href="#name-appendix-potential-impacts" class="section-name selfRef">Appendix: Potential Impacts</a>
+      <h2 id="name-potential-impacts">
+<a href="#appendix-C" class="section-number selfRef">Appendix C. </a><a href="#name-potential-impacts" class="section-name selfRef">Potential Impacts</a>
       </h2>
-<p id="appendix-C-1">During the workshop, participants were asked to name potential impacts - whether positive or negative - that could be seen in association with the introduction of an age control mechanism. This list is not exhaustive, and does not imply that all points were agreed to by all participants.<a href="#appendix-C-1" class="pilcrow">¶</a></p>
+<p id="appendix-C-1">During the workshop, participants were asked to name potential impacts -- whether positive or negative -- that could be seen in association with the introduction of an age control mechanism. This list is not exhaustive, and does not imply that all points were agreed to by all participants.<a href="#appendix-C-1" class="pilcrow">¶</a></p>
 <div id="impact-on-children">
 <section id="appendix-C.1">
         <h3 id="name-impact-on-children">
@@ -1821,7 +1826,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="appendix-C.1-1.3.1">Kids lose the ability to explore on their own<a href="#appendix-C.1-1.3.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-C.1-1.4">
-            <p id="appendix-C.1-1.4.1">Diminishing children’s rights<a href="#appendix-C.1-1.4.1" class="pilcrow">¶</a></p>
+            <p id="appendix-C.1-1.4.1">Diminishing children's rights<a href="#appendix-C.1-1.4.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 </section>
@@ -1929,7 +1934,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="appendix-C.4-1.4.1">Needing to trust someone on their word without evidence<a href="#appendix-C.4-1.4.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-C.4-1.5">
-            <p id="appendix-C.4-1.5.1">Normalizing online identity requests - increase to phishing risk<a href="#appendix-C.4-1.5.1" class="pilcrow">¶</a></p>
+            <p id="appendix-C.4-1.5.1">Normalizing online identity requests -- increase to phishing risk<a href="#appendix-C.4-1.5.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-C.4-1.6">
             <p id="appendix-C.4-1.6.1">Data breaches<a href="#appendix-C.4-1.6.1" class="pilcrow">¶</a></p>
@@ -1959,7 +1964,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="appendix-C.5-1.5.1">Lack of availability of redress mechanisms<a href="#appendix-C.5-1.5.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-C.5-1.6">
-            <p id="appendix-C.5-1.6.1">Users’ rights to restitution<a href="#appendix-C.5-1.6.1" class="pilcrow">¶</a></p>
+            <p id="appendix-C.5-1.6.1">Users' rights to restitution<a href="#appendix-C.5-1.6.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-C.5-1.7">
             <p id="appendix-C.5-1.7.1">Loss of control over and access to data<a href="#appendix-C.5-1.7.1" class="pilcrow">¶</a></p>
@@ -1998,17 +2003,17 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="appendix-C.6-1.6.1">Advancing foreign policy goals with censorship<a href="#appendix-C.6-1.6.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-C.6-1.7">
-            <p id="appendix-C.6-1.7.1">Abuse of guardians who don’t cut off their wards<a href="#appendix-C.6-1.7.1" class="pilcrow">¶</a></p>
+            <p id="appendix-C.6-1.7.1">Abuse of guardians who don't cut off their wards<a href="#appendix-C.6-1.7.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 </section>
 </div>
 </section>
 </div>
-<div id="appendix-desirable-and-essential-properties-of-a-solution">
+<div id="desirable-and-essential-properties-of-a-solution">
 <section id="appendix-D">
-      <h2 id="name-appendix-desirable-and-esse">
-<a href="#appendix-D" class="section-number selfRef">Appendix D. </a><a href="#name-appendix-desirable-and-esse" class="section-name selfRef">Appendix: Desirable and Essential Properties of a Solution</a>
+      <h2 id="name-desirable-and-essential-pro">
+<a href="#appendix-D" class="section-number selfRef">Appendix D. </a><a href="#name-desirable-and-essential-pro" class="section-name selfRef">Desirable and Essential Properties of a Solution</a>
       </h2>
 <p id="appendix-D-1">During the workshop, participants were asked to nominate the properties that they believed would be advantageous or even essential for a solution in this space to have. This set of requirements and desiderata was recognised as not all being achievable, as some goals are in tension with others.<a href="#appendix-D-1" class="pilcrow">¶</a></p>
 <div id="functional">
@@ -2018,7 +2023,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
         </h3>
 <ul class="normal">
 <li class="normal" id="appendix-D.1-1.1">
-            <p id="appendix-D.1-1.1.1">Underage don’t access content that’s inappropriate<a href="#appendix-D.1-1.1.1" class="pilcrow">¶</a></p>
+            <p id="appendix-D.1-1.1.1">Underage don't access content that's inappropriate<a href="#appendix-D.1-1.1.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-D.1-1.2">
             <p id="appendix-D.1-1.2.1">Not trivially by-passable<a href="#appendix-D.1-1.2.1" class="pilcrow">¶</a></p>
@@ -2039,7 +2044,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="appendix-D.1-1.7.1">Enables differential experiences or age-appropriate design (not just blocking)<a href="#appendix-D.1-1.7.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-D.1-1.8">
-            <p id="appendix-D.1-1.8.1">Agile by design - assume adversarial engagement<a href="#appendix-D.1-1.8.1" class="pilcrow">¶</a></p>
+            <p id="appendix-D.1-1.8.1">Agile by design -- assume adversarial engagement<a href="#appendix-D.1-1.8.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-D.1-1.9">
             <p id="appendix-D.1-1.9.1">Difficult to bypass<a href="#appendix-D.1-1.9.1" class="pilcrow">¶</a></p>
@@ -2093,7 +2098,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="appendix-D.3-1.5.1">Phishing-resistant<a href="#appendix-D.3-1.5.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-D.3-1.6">
-            <p id="appendix-D.3-1.6.1">Doesn’t process or transfer any more data than is necessary<a href="#appendix-D.3-1.6.1" class="pilcrow">¶</a></p>
+            <p id="appendix-D.3-1.6.1">Doesn't process or transfer any more data than is necessary<a href="#appendix-D.3-1.6.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-D.3-1.7">
             <p id="appendix-D.3-1.7.1">Avoids becoming a tracking vector<a href="#appendix-D.3-1.7.1" class="pilcrow">¶</a></p>
@@ -2111,7 +2116,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="appendix-D.4-1.1.1">Inclusive<a href="#appendix-D.4-1.1.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-D.4-1.2">
-            <p id="appendix-D.4-1.2.1">Fair - avoids or minimises bias<a href="#appendix-D.4-1.2.1" class="pilcrow">¶</a></p>
+            <p id="appendix-D.4-1.2.1">Fair -- avoids or minimises bias<a href="#appendix-D.4-1.2.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-D.4-1.3">
             <p id="appendix-D.4-1.3.1">Does not create inequalities (e.g., across education, other properties)<a href="#appendix-D.4-1.3.1" class="pilcrow">¶</a></p>
@@ -2207,7 +2212,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="appendix-D.7-1.2.1">Enforceable by a good mix of technology and law<a href="#appendix-D.7-1.2.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-D.7-1.3">
-            <p id="appendix-D.7-1.3.1">Broad deployability - not expensive or complex<a href="#appendix-D.7-1.3.1" class="pilcrow">¶</a></p>
+            <p id="appendix-D.7-1.3.1">Broad deployability -- not expensive or complex<a href="#appendix-D.7-1.3.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-D.7-1.4">
             <p id="appendix-D.7-1.4.1">Decentralized<a href="#appendix-D.7-1.4.1" class="pilcrow">¶</a></p>
@@ -2237,7 +2242,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
             <p id="appendix-D.8-1.3.1">Not a single, sole solution<a href="#appendix-D.8-1.3.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-D.8-1.4">
-            <p id="appendix-D.8-1.4.1">Stable - resilient<a href="#appendix-D.8-1.4.1" class="pilcrow">¶</a></p>
+            <p id="appendix-D.8-1.4.1">Stable -- resilient<a href="#appendix-D.8-1.4.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="appendix-D.8-1.5">
             <p id="appendix-D.8-1.5.1">Alignment of incentives among participants<a href="#appendix-D.8-1.5.1" class="pilcrow">¶</a></p>
