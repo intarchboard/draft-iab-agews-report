@@ -215,6 +215,18 @@ One consequence of having multiple imperfect techniques is the need to recognize
 
 Some participants argued that accepting these risks is necessary in order to gain any of the benefits that age-based restrictions might confer. However, it was clear that other participants were unwilling to accept potential impositions on individual rights in light of the insufficiency of restrictions in providing meaningful protection; see {{holistic}}.
 
+
+## Path Dependence Creates Barriers {#path-dependence}
+
+At several points, conversation surfaced concerns that deployment of some kinds of solutions are effectively "one-way doors" that cannot be easily rolled back.
+
+Such effects might appear as ossification (the inability to evolve the Internet infrastructure), or the inability to withdraw or modify a capability once it gains wide deployment.
+
+For example, early deployment of solutions that use private third parties to verify government-issued identifiers could become accepted as "normal" on the Internet, even though this approach has associated harms regarding privacy and equity. Once it is widely deployed, the ecosystem that deploys and uses it (the service providers and their clients, such as Web sites) become invested in the continued use of that solution, and the inertia of the ecosystem overall becomes difficult to overcome.
+
+Furthermore, social changes -- such as the normalisation of requests for age or signifiers for it -- may have the effect of creating adverse conditions for deployment of new solutions, compounding this effect.
+
+
 ## Mapping the Risks for Architectures is a Useful Next Step {#risks}
 
 How the identified roles (see {{roles}}) are arranged into architectures was some of the more substantive discussion. {{JACKSON}} describes some of the alternatives, along with some of the implications that arise from different arrangements.
@@ -234,6 +246,8 @@ Architectures are not equally vulnerable to different risks, so a more thorough 
 ## Safety Requires More than a Technical Solution {#holistic}
 
 Experts in child safety frequently acknowledged that restricting access to selected content cannot be assumed to be sufficient. The task of ensuring that children are both kept appropriately safe, while preparing them for the challenges they will face in their lifetimes, is a massively complex task.
+
+Furthermore, many agreed that there is no perfect or complete solution to the issues in this area, and that regardless of the technical approach used, circumvention will always be possible in some manner.
 
 A recurrent theme was the old maxim, "it takes a village to raise a child". This concept transcends cultural boundaries and was recognized. The role of parents, guardians, educators, governments, and online services in creating an environment in which children can thrive and grow.
 
