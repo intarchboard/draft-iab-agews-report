@@ -226,11 +226,10 @@ Table of Contents
    necessarily sufficient, tools.  Some participants cautioned that PETs
    cannot prevent circumvention or censorship, are relatively untested,
    and that open-sourcing code does not automatically make systems
-   trustworthy.  A recurring concern was the growing influence of
-   digital-identity frameworks: while credential-based verification may
-   work well in countries with unified ID systems, it risks excluding
-   people without access to such credentials and entrenching
-   inequalities.
+   trustworthy.  A recurring concern was that while credential-based
+   verification may work well in countries with unified ID systems, it
+   risks excluding people without access to such credentials and
+   entrenching inequalities.
 
    Discussions on parental controls and network operator roles
    highlighted practical tensions between effectiveness, usability, and
