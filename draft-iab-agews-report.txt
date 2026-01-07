@@ -814,111 +814,111 @@ Appendix C.  Potential Impacts
 
 C.1.  Impact on Children
 
-   *  Children encounter online harms
+   1.  Children encounter online harms
 
-   *  Pushing kids to less safe resources
+   2.  Pushing kids to less safe resources
 
-   *  Kids lose the ability to explore on their own
+   3.  Kids lose the ability to explore on their own
 
-   *  Diminishing children's rights
+   4.  Diminishing children's rights
 
 C.2.  Ecosystem Impact
 
-   *  Centralization
+   1.   Centralization
 
-   *  Fragmentation of the Internet
+   2.   Fragmentation of the Internet
 
-   *  Increased costs for running a Web site
+   3.   Increased costs for running a Web site
 
-   *  Chilling effects on use of the Internet
+   4.   Chilling effects on use of the Internet
 
-   *  VPNs proliferate
+   5.   VPNs proliferate
 
-   *  Chilling effects on the publication of borderline content
+   6.   Chilling effects on the publication of borderline content
 
-   *  Less content being available online
+   7.   Less content being available online
 
-   *  Restricting people to a few platforms / services
+   8.   Restricting people to a few platforms / services
 
-   *  More use/utility of the Internet due to a perception of safety
+   9.   More use/utility of the Internet due to a perception of safety
 
-   *  More (or all) online services require a verified login
+   10.  More (or all) online services require a verified login
 
 C.3.  Implementation and Deployment Difficulties
 
-   *  Device compatibility
+   1.   Device compatibility
 
-   *  "Advanced Persistent Teenagers"
+   2.   "Advanced Persistent Teenagers"
 
-   *  Difficulties regarding jurisdiction checking
+   3.   Difficulties regarding jurisdiction checking
 
-   *  Spillover to other software (e.g., VPNs)
+   4.   Spillover to other software (e.g., VPNs)
 
-   *  Displacing users from compliant to non-compliant sites
+   5.   Displacing users from compliant to non-compliant sites
 
-   *  False sense of addressing the problem
+   6.   False sense of addressing the problem
 
-   *  Dealing with conflict of laws
+   7.   Dealing with conflict of laws
 
-   *  Operators pulling out of territories
+   8.   Operators pulling out of territories
 
-   *  Increasing the footprint of the deep web
+   9.   Increasing the footprint of the deep web
 
-   *  Imposition of cultural norms on other jurisdictions
+   10.  Imposition of cultural norms on other jurisdictions
 
-   *  Technical solutions are reused for other purposes (scope creep)
+   11.  Technical solutions are reused for other purposes (scope creep)
 
-   *  Dealing with obsolete and non-compliant systems
+   12.  Dealing with obsolete and non-compliant systems
 
 C.4.  Security and Privacy
 
-   *  Increased cybersecurity risks
+   1.  Increased cybersecurity risks
 
-   *  Fingerprinting risk
+   2.  Fingerprinting risk
 
-   *  Ad targeting could get creepier
+   3.  Ad targeting could get creepier
 
-   *  Needing to trust someone on their word without evidence
+   4.  Needing to trust someone on their word without evidence
 
-   *  Normalizing online identity requests -- increase to phishing risk
+   5.  Normalizing online identity requests -- increase to phishing risk
 
-   *  Data breaches
+   6.  Data breaches
 
 C.5.  Equity
 
-   *  Lack of access (e.g. due to lack of device support)
+   1.  Lack of access (e.g. due to lack of device support)
 
-   *  Refugees, stateless people, people without identity
+   2.  Refugees, stateless people, people without identity
 
-   *  Harm to vulnerable people
+   3.  Harm to vulnerable people
 
-   *  Not addressing other vulnerable groups (i.e., not age-based)
+   4.  Not addressing other vulnerable groups (i.e., not age-based)
 
-   *  Lack of availability of redress mechanisms
+   5.  Lack of availability of redress mechanisms
 
-   *  Users' rights to restitution
+   6.  Users' rights to restitution
 
-   *  Loss of control over and access to data
+   7.  Loss of control over and access to data
 
-   *  Risk to anonymity
+   8.  Risk to anonymity
 
-   *  Loss of ability to run software of your choice
+   9.  Loss of ability to run software of your choice
 
 C.6.  Societal Impacts
 
-   *  Air cover for blocking the Internet
+   1.  Air cover for blocking the Internet
 
-   *  User control of the content they see online
+   2.  User control of the content they see online
 
-   *  Costs to society (e.g., regulatory overhead)
+   3.  Costs to society (e.g., regulatory overhead)
 
-   *  Increased online tracking and state surveillance
+   4.  Increased online tracking and state surveillance
 
-   *  Use as a censorship mechanism
+   5.  Use as a censorship mechanism
 
-   *  Advancing foreign policy goals with censorship
+   6.  Advancing foreign policy goals with censorship
 
-   *  Abuse of guardians who don't cut off their wards
+   7.  Abuse of guardians who don't cut off their wards
 
 Appendix D.  Desirable and Essential Properties of a Solution
 
@@ -930,145 +930,145 @@ Appendix D.  Desirable and Essential Properties of a Solution
 
 D.1.  Functional
 
-   *  Underage don't access content that's inappropriate
+   1.  Underage don't access content that's inappropriate
 
-   *  Not trivially by-passable
+   2.  Not trivially by-passable
 
-   *  Flexible enough to be provided through different means
+   3.  Flexible enough to be provided through different means
 
-   *  Bound to the user
+   4.  Bound to the user
 
-   *  Reliable
+   5.  Reliable
 
-   *  Handles user-generated content
+   6.  Handles user-generated content
 
-   *  Enables differential experiences or age-appropriate design (not
-      just blocking)
+   7.  Enables differential experiences or age-appropriate design (not
+       just blocking)
 
-   *  Agile by design -- assume adversarial engagement
+   8.  Agile by design -- assume adversarial engagement
 
-   *  Difficult to bypass
+   9.  Difficult to bypass
 
 D.2.  Accountability and Transparency
 
-   *  Transparency and accountability regarding what is blocked
+   1.  Transparency and accountability regarding what is blocked
 
-   *  Minimises the need for trust decisions
+   2.  Minimises the need for trust decisions
 
-   *  Can be independently / publicly verifiable and tested
+   3.  Can be independently / publicly verifiable and tested
 
-   *  Auditability
+   4.  Auditability
 
-   *  Appeal mechanism for incorrect labelling of content
+   5.  Appeal mechanism for incorrect labelling of content
 
 D.3.  Privacy and Security
 
-   *  Issuer-Verifier and Verifier-Verifier unlinkability
+   1.  Issuer-Verifier and Verifier-Verifier unlinkability
 
-   *  Unlinkability across components
+   2.  Unlinkability across components
 
-   *  Purpose limitation of the data processed
+   3.  Purpose limitation of the data processed
 
-   *  Security of data processed
+   4.  Security of data processed
 
-   *  Phishing-resistant
+   5.  Phishing-resistant
 
-   *  Doesn't process or transfer any more data than is necessary
+   6.  Doesn't process or transfer any more data than is necessary
 
-   *  Avoids becoming a tracking vector
+   7.  Avoids becoming a tracking vector
 
 D.4.  Equity
 
-   *  Inclusive
+   1.   Inclusive
 
-   *  Fair -- avoids or minimises bias
+   2.   Fair -- avoids or minimises bias
 
-   *  Does not create inequalities (e.g., across education, other
-      properties)
+   3.   Does not create inequalities (e.g., across education, other
+        properties)
 
-   *  Discriminates solely upon age, not other properties
+   4.   Discriminates solely upon age, not other properties
 
-   *  Works on open devices
+   5.   Works on open devices
 
-   *  Device independence
+   6.   Device independence
 
-   *  Usable by people of all ages to increase their safety online
+   7.   Usable by people of all ages to increase their safety online
 
-   *  User choice in who verifies their age, and how
+   8.   User choice in who verifies their age, and how
 
-   *  No clear losers
+   9.   No clear losers
 
-   *  Accessible to people with disabilities
+   10.  Accessible to people with disabilities
 
-   *  Includes appeal mechanisms for incorrect age determinations
+   11.  Includes appeal mechanisms for incorrect age determinations
 
 D.5.  Jurisdiction and Geopolitical
 
-   *  Able to handle arbitrary composition of different jurisdictional
-      requirements (possibly down to school level)
+   1.  Able to handle arbitrary composition of different jurisdictional
+       requirements (possibly down to school level)
 
-   *  Applicable globally
+   2.  Applicable globally
 
-   *  Applies the rule of law in the jurisdiction where it applies
-      universally
+   3.  Applies the rule of law in the jurisdiction where it applies
+       universally
 
-   *  No concentration of power in any one entity (or small group of
-      them)
+   4.  No concentration of power in any one entity (or small group of
+       them)
 
-   *  No concentration of power in any country
+   5.  No concentration of power in any country
 
-   *  Aligned to legal duties
+   6.  Aligned to legal duties
 
-   *  Based upon a valid legal basis
+   7.  Based upon a valid legal basis
 
 D.6.  Usability
 
-   *  Economically sustainable
+   1.  Economically sustainable
 
-   *  Low friction for adults
+   2.  Low friction for adults
 
-   *  Fast
+   3.  Fast
 
-   *  Comprehensible by users
+   4.  Comprehensible by users
 
 D.7.  Implementation and Deployment
 
-   *  Low dependency on a single root of trust
+   1.  Low dependency on a single root of trust
 
-   *  Enforceable by a good mix of technology and law
+   2.  Enforceable by a good mix of technology and law
 
-   *  Broad deployability -- not expensive or complex
+   3.  Broad deployability -- not expensive or complex
 
-   *  Decentralized
+   4.  Decentralized
 
-   *  Future-proof
+   5.  Future-proof
 
-   *  Ability to report / learn when there are issues in the system /
-      telemetry
+   6.  Ability to report / learn when there are issues in the system /
+       telemetry
 
 D.8.  General / Other
 
-   *  Not perfect
+   1.   Not perfect
 
-   *  Technically robust
+   2.   Technically robust
 
-   *  Not a single, sole solution
+   3.   Not a single, sole solution
 
-   *  Stable -- resilient
+   4.   Stable -- resilient
 
-   *  Alignment of incentives among participants
+   5.   Alignment of incentives among participants
 
-   *  Simple to implement
+   6.   Simple to implement
 
-   *  Resistance to repurposing for censorship
+   7.   Resistance to repurposing for censorship
 
-   *  Unable to be used for surveillance
+   8.   Unable to be used for surveillance
 
-   *  Addresses risk of verification becoming over-prevalent
+   9.   Addresses risk of verification becoming over-prevalent
 
-   *  Accountable governance
+   10.  Accountable governance
 
-   *  Open Standards-based
+   11.  Open Standards-based
 
 Authors' Addresses
 
