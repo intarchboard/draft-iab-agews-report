@@ -366,69 +366,69 @@ During the workshop, participants were asked to name potential impacts -- whethe
 
 ## Impact on Children
 
-* Children encounter online harms
-* Pushing kids to less safe resources
-* Kids lose the ability to explore on their own
-* Diminishing children's rights
+1. Children encounter online harms
+2. Pushing kids to less safe resources
+3. Kids lose the ability to explore on their own
+4. Diminishing children's rights
 
 ## Ecosystem Impact
 
-* Centralization
-* Fragmentation of the Internet
-* Increased costs for running a Web site
-* Chilling effects on use of the Internet
-* VPNs proliferate
-* Chilling effects on the publication of borderline content
-* Less content being available online
-* Restricting people to a few platforms / services
-* More use/utility of the Internet due to a perception of safety
-* More (or all) online services require a verified login
+1. Centralization
+2. Fragmentation of the Internet
+3. Increased costs for running a Web site
+4. Chilling effects on use of the Internet
+5. VPNs proliferate
+6. Chilling effects on the publication of borderline content
+7. Less content being available online
+8. Restricting people to a few platforms / services
+9. More use/utility of the Internet due to a perception of safety
+10. More (or all) online services require a verified login
 
 ## Implementation and Deployment Difficulties
 
-* Device compatibility
-* "Advanced Persistent Teenagers"
-* Difficulties regarding jurisdiction checking
-* Spillover to other software (e.g., VPNs)
-* Displacing users from compliant to non-compliant sites
-* False sense of addressing the problem
-* Dealing with conflict of laws
-* Operators pulling out of territories
-* Increasing the footprint of the deep web
-* Imposition of cultural norms on other jurisdictions
-* Technical solutions are reused for other purposes (scope creep)
-* Dealing with obsolete and non-compliant systems
+1. Device compatibility
+2. "Advanced Persistent Teenagers"
+3. Difficulties regarding jurisdiction checking
+4. Spillover to other software (e.g., VPNs)
+5. Displacing users from compliant to non-compliant sites
+6. False sense of addressing the problem
+7. Dealing with conflict of laws
+8. Operators pulling out of territories
+9. Increasing the footprint of the deep web
+10. Imposition of cultural norms on other jurisdictions
+11. Technical solutions are reused for other purposes (scope creep)
+12. Dealing with obsolete and non-compliant systems
 
 ## Security and Privacy
 
-* Increased cybersecurity risks
-* Fingerprinting risk
-* Ad targeting could get creepier
-* Needing to trust someone on their word without evidence
-* Normalizing online identity requests -- increase to phishing risk
-* Data breaches
+1. Increased cybersecurity risks
+2. Fingerprinting risk
+3. Ad targeting could get creepier
+4. Needing to trust someone on their word without evidence
+5. Normalizing online identity requests -- increase to phishing risk
+6. Data breaches
 
 ## Equity
 
-* Lack of access (e.g. due to lack of device support)
-* Refugees, stateless people, people without identity
-* Harm to vulnerable people
-* Not addressing other vulnerable groups (i.e., not age-based)
-* Lack of availability of redress mechanisms
-* Users' rights to restitution
-* Loss of control over and access to data
-* Risk to anonymity
-* Loss of ability to run software of your choice
+1. Lack of access (e.g. due to lack of device support)
+2. Refugees, stateless people, people without identity
+3. Harm to vulnerable people
+4. Not addressing other vulnerable groups (i.e., not age-based)
+5. Lack of availability of redress mechanisms
+6. Users' rights to restitution
+7. Loss of control over and access to data
+8. Risk to anonymity
+9. Loss of ability to run software of your choice
 
 ## Societal Impacts
 
-* Air cover for blocking the Internet
-* User control of the content they see online
-* Costs to society (e.g., regulatory overhead)
-* Increased online tracking and state surveillance
-* Use as a censorship mechanism
-* Advancing foreign policy goals with censorship
-* Abuse of guardians who don't cut off their wards
+1. Air cover for blocking the Internet
+2. User control of the content they see online
+3. Costs to society (e.g., regulatory overhead)
+4. Increased online tracking and state surveillance
+5. Use as a censorship mechanism
+6. Advancing foreign policy goals with censorship
+7. Abuse of guardians who don't cut off their wards
 
 # Desirable and Essential Properties of a Solution
 
@@ -436,84 +436,84 @@ During the workshop, participants were asked to nominate the properties that the
 
 ## Functional
 
-* Underage don't access content that's inappropriate
-* Not trivially by-passable
-* Flexible enough to be provided through different means
-* Bound to the user
-* Reliable
-* Handles user-generated content
-* Enables differential experiences or age-appropriate design (not just blocking)
-* Agile by design -- assume adversarial engagement
-* Difficult to bypass
+1. Underage don't access content that's inappropriate
+2. Not trivially by-passable
+3. Flexible enough to be provided through different means
+4. Bound to the user
+5. Reliable
+6. Handles user-generated content
+7. Enables differential experiences or age-appropriate design (not just blocking)
+8. Agile by design -- assume adversarial engagement
+9. Difficult to bypass
 
 ## Accountability and Transparency
 
-* Transparency and accountability regarding what is blocked
-* Minimises the need for trust decisions
-* Can be independently / publicly verifiable and tested
-* Auditability
-* Appeal mechanism for incorrect labelling of content
+1. Transparency and accountability regarding what is blocked
+2. Minimises the need for trust decisions
+3. Can be independently / publicly verifiable and tested
+4. Auditability
+5. Appeal mechanism for incorrect labelling of content
 
 ## Privacy and Security
 
-* Issuer-Verifier and Verifier-Verifier unlinkability
-* Unlinkability across components
-* Purpose limitation of the data processed
-* Security of data processed
-* Phishing-resistant
-* Doesn't process or transfer any more data than is necessary
-* Avoids becoming a tracking vector
+1. Issuer-Verifier and Verifier-Verifier unlinkability
+2. Unlinkability across components
+3. Purpose limitation of the data processed
+4. Security of data processed
+5. Phishing-resistant
+6. Doesn't process or transfer any more data than is necessary
+7. Avoids becoming a tracking vector
 
 ## Equity
 
-* Inclusive
-* Fair -- avoids or minimises bias
-* Does not create inequalities (e.g., across education, other properties)
-* Discriminates solely upon age, not other properties
-* Works on open devices
-* Device independence
-* Usable by people of all ages to increase their safety online
-* User choice in who verifies their age, and how
-* No clear losers
-* Accessible to people with disabilities
-* Includes appeal mechanisms for incorrect age determinations
+1. Inclusive
+2. Fair -- avoids or minimises bias
+3. Does not create inequalities (e.g., across education, other properties)
+4. Discriminates solely upon age, not other properties
+5. Works on open devices
+6. Device independence
+7. Usable by people of all ages to increase their safety online
+8. User choice in who verifies their age, and how
+9. No clear losers
+10. Accessible to people with disabilities
+11. Includes appeal mechanisms for incorrect age determinations
 
 ## Jurisdiction and Geopolitical
 
-* Able to handle arbitrary composition of different jurisdictional requirements (possibly down to school level)
-* Applicable globally
-* Applies the rule of law in the jurisdiction where it applies universally
-* No concentration of power in any one entity (or small group of them)
-* No concentration of power in any country
-* Aligned to legal duties
-* Based upon a valid legal basis
+1. Able to handle arbitrary composition of different jurisdictional requirements (possibly down to school level)
+2. Applicable globally
+3. Applies the rule of law in the jurisdiction where it applies universally
+4. No concentration of power in any one entity (or small group of them)
+5. No concentration of power in any country
+6. Aligned to legal duties
+7. Based upon a valid legal basis
 
 ## Usability
 
-* Economically sustainable
-* Low friction for adults
-* Fast
-* Comprehensible by users
+1. Economically sustainable
+2. Low friction for adults
+3. Fast
+4. Comprehensible by users
 
 ## Implementation and Deployment
 
-* Low dependency on a single root of trust
-* Enforceable by a good mix of technology and law
-* Broad deployability -- not expensive or complex
-* Decentralized
-* Future-proof
-* Ability to report / learn when there are issues in the system / telemetry
+1. Low dependency on a single root of trust
+2. Enforceable by a good mix of technology and law
+3. Broad deployability -- not expensive or complex
+4. Decentralized
+5. Future-proof
+6. Ability to report / learn when there are issues in the system / telemetry
 
 ## General / Other
 
-* Not perfect
-* Technically robust
-* Not a single, sole solution
-* Stable -- resilient
-* Alignment of incentives among participants
-* Simple to implement
-* Resistance to repurposing for censorship
-* Unable to be used for surveillance
-* Addresses risk of verification becoming over-prevalent
-* Accountable governance
-* Open Standards-based
+1. Not perfect
+2. Technically robust
+3. Not a single, sole solution
+4. Stable -- resilient
+5. Alignment of incentives among participants
+6. Simple to implement
+7. Resistance to repurposing for censorship
+8. Unable to be used for surveillance
+9. Addresses risk of verification becoming over-prevalent
+10. Accountable governance
+11. Open Standards-based
