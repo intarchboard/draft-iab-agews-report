@@ -5,7 +5,7 @@
 Network Working Group                                      M. Nottingham
 Internet-Draft                                                          
 Intended status: Informational                                M. Thomson
-Expires: 11 July 2026                                     7 January 2026
+Expires: 12 July 2026                                     8 January 2026
 
 
  Report from the IAB/W3C Workshop on Age-Based Restrictions on Content
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 July 2026.
+   This Internet-Draft will expire on 12 July 2026.
 
 Copyright Notice
 
@@ -809,8 +809,9 @@ Appendix C.  Potential Impacts
    During the workshop, participants were asked to name potential
    impacts -- whether positive or negative -- that could be seen in
    association with the introduction of an age control mechanism.  This
-   list is not exhaustive, and does not imply that all points were
-   agreed to by all participants.
+   list is not exhaustive, focuses largely on the challenges surrounding
+   the introduction of such a mechanism, and does not imply that all
+   points were agreed to by all participants'
 
 C.1.  Impact on Children
 
