@@ -1,0 +1,227 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2026-01-11T00:50:23.220397+00:00",
+  "repo": "intarchboard/draft-iab-agews-report",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOQzuCks67ctW0",
+      "title": "Cleanup",
+      "url": "https://github.com/intarchboard/draft-iab-agews-report/pull/1",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The commits tell the story.",
+      "createdAt": "2026-01-05T00:25:23Z",
+      "updatedAt": "2026-01-06T02:44:48Z",
+      "baseRepository": "intarchboard/draft-iab-agews-report",
+      "baseRefName": "main",
+      "baseRefOid": "4a197e45cf93af416918db77100af0fc474b9c44",
+      "headRepository": "intarchboard/draft-iab-agews-report",
+      "headRefName": "boilerplate",
+      "headRefOid": "ee238996aee3918936692c344bd89a047a38ed8e",
+      "closedAt": "2026-01-06T02:44:48Z",
+      "mergedAt": "2026-01-06T02:44:48Z",
+      "mergedBy": "mnot",
+      "mergeCommit": {
+        "oid": "6d4bde1454917241be72fc7f7fbd8691a2471e56"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOQzuCks67iD5o",
+      "title": "Mainly Nits",
+      "url": "https://github.com/intarchboard/draft-iab-agews-report/pull/2",
+      "state": "MERGED",
+      "author": "dhruvdhody",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Corrected typos and improved clarity in the draft report.",
+      "createdAt": "2026-01-05T13:18:51Z",
+      "updatedAt": "2026-01-05T21:43:18Z",
+      "baseRepository": "intarchboard/draft-iab-agews-report",
+      "baseRefName": "main",
+      "baseRefOid": "9f164b21a56b0344b39f2f91691182bb68261599",
+      "headRepository": "intarchboard/draft-iab-agews-report",
+      "headRefName": "dhruvdhody-patch-1",
+      "headRefOid": "78580fcfce78a9515539bd33033bcca9d09b9612",
+      "closedAt": "2026-01-05T21:43:12Z",
+      "mergedAt": "2026-01-05T21:43:12Z",
+      "mergedBy": "mnot",
+      "mergeCommit": {
+        "oid": "4a197e45cf93af416918db77100af0fc474b9c44"
+      },
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Thanks!",
+          "createdAt": "2026-01-05T21:43:18Z",
+          "updatedAt": "2026-01-05T21:43:18Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOQzuCks672HEg",
+      "title": "Dhruv's suggestions",
+      "url": "https://github.com/intarchboard/draft-iab-agews-report/pull/3",
+      "state": "OPEN",
+      "author": "mnot",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2026-01-07T06:37:34Z",
+      "updatedAt": "2026-01-07T07:11:21Z",
+      "baseRepository": "intarchboard/draft-iab-agews-report",
+      "baseRefName": "main",
+      "baseRefOid": "c45b24cb51854ed94942496d0fcfab8141254914",
+      "headRepository": "intarchboard/draft-iab-agews-report",
+      "headRefName": "mnot/moar",
+      "headRefOid": "9f0394b5482c0451ee6df5c4a54ab2191be3fd91",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@dhruvdhody FYI",
+          "createdAt": "2026-01-07T06:38:06Z",
+          "updatedAt": "2026-01-07T06:38:06Z"
+        },
+        {
+          "author": "dhruvdhody",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Looks good! Thanks for considering it! ",
+          "createdAt": "2026-01-07T06:44:31Z",
+          "updatedAt": "2026-01-07T06:44:31Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOQzuCks7Yk_tO",
+          "commit": {
+            "abbreviatedOid": "9f0394b"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-01-07T06:53:12Z",
+          "updatedAt": "2026-01-07T06:55:28Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "The things that you connect to these trapdoors don't seem like they qualify for me.\n\nThe general sentiment here does capture some of what was discussed, but I don't think it's crisp in the same way the other text is.  Because norms constantly change I don't think they ever qualify as one-way doors.\n\nSimilarly, I don't think that age assurance providers naturally become entrenched once they are in place.  They might prefer that outcome, and might even work toward creating a dependency on aspects of their service. Ultimately, they provide a service in exchange for money.  If the need for the service evaporates, I can't see any provider having trouble deciding to end the contract.  More so if the services are as costly as it seems they are.",
+              "createdAt": "2026-01-07T06:53:13Z",
+              "updatedAt": "2026-01-07T06:55:28Z"
+            },
+            {
+              "originalPosition": 13,
+              "body": "This looks to be the strongest argument here, but I didn't find this framing convincing either.  The idea seems to be that we might find a local minimum and then lack the activation energy to move to a better optimal solution.  That's true, because some alternatives are potentially worse in some aspects than entrenched ones and there would be entities that lose out if those alternatives are blessed as alternatives.",
+              "createdAt": "2026-01-07T06:55:20Z",
+              "updatedAt": "2026-01-07T06:55:28Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOQzuCks7YlJ9a",
+          "commit": {
+            "abbreviatedOid": "9f0394b"
+          },
+          "author": "dhruvdhody",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-01-07T07:11:19Z",
+          "updatedAt": "2026-01-07T07:11:19Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "Theoretically nothing is \"one-way\", but the sentiment from the workshop was that reversal is systemically difficult even if it remains theoretically possible, due to the changes in internet/web architecture itself, dependencies on third parties, or the societal expectations. ",
+              "createdAt": "2026-01-07T07:11:19Z",
+              "updatedAt": "2026-01-07T07:11:20Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOQzuCks7YlJ-I",
+          "commit": {
+            "abbreviatedOid": "9f0394b"
+          },
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-01-07T07:11:21Z",
+          "updatedAt": "2026-01-07T07:11:21Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "@martinthomson for clarity, this is my (possibly poor) attempt to expand upon a couple of points that Dhruv raised. Happy to take concrete suggestions from either of you.",
+              "createdAt": "2026-01-07T07:11:21Z",
+              "updatedAt": "2026-01-07T07:11:21Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
