@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-01-13T00:40:20.142131+00:00",
+  "timestamp": "2026-01-15T00:42:20.292758+00:00",
   "repo": "intarchboard/draft-iab-agews-report",
   "labels": [
     {
@@ -222,6 +222,40 @@
           ]
         }
       ]
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOQzuCks69Pj2F",
+      "title": "Iain's inference tweak",
+      "url": "https://github.com/intarchboard/draft-iab-agews-report/pull/4",
+      "state": "OPEN",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "(BTW, unwrapped lines make diffs very hard to read and manage.  I might do some wrapping.",
+      "createdAt": "2026-01-14T20:59:55Z",
+      "updatedAt": "2026-01-14T22:23:25Z",
+      "baseRepository": "intarchboard/draft-iab-agews-report",
+      "baseRefName": "main",
+      "baseRefOid": "ba71cb17c2ce72a1b20448ff99720165c8ff1879",
+      "headRepository": "intarchboard/draft-iab-agews-report",
+      "headRefName": "inference-tweak",
+      "headRefOid": "20e85e145f5b035ae0d82e2144b3c2b06e554d9c",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "LGTM",
+          "createdAt": "2026-01-14T22:23:25Z",
+          "updatedAt": "2026-01-14T22:23:25Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
