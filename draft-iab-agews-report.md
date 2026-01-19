@@ -172,7 +172,7 @@ Age estimation:
 : Age estimation uses statistical processes that process physical or behavioral characteristics of a person to produce a probabilistic value for how old someone is or whether their age is in a target range. A variety of techniques are used, the most common being facial age estimation, which uses machine learning models to estimate how old a person is based on still or moving images of their face.
 
 Age inference:
-: Age inference draws on external data sources to determine whether a person fits a given age range. This method requires identification information, such as an email address or phone number, to find relevant records. For example, evidence of online activity prior to a certain date in the past might support the view that a person is older than a target threshold.
+: Age inference draws on data sources to determine whether a person fits a given age range. This method can require identification information, such as an email address or phone number, to find relevant records. For example, evidence of online activity prior to a certain date in the past might support the view that a person is older than a target threshold.
 
 Age gating:
 : Age gating is the process of restricting access to something based on the age of the person requesting access.
