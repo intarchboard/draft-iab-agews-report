@@ -207,19 +207,19 @@ Discussion often came back to an approach that is increasingly recommended for u
 
 Some participants noted that inconsistent friction and invasiveness create a different kind of discrimination, one that can exacerbate existing adverse discrimination. For example, the accuracy of age estimation for people with African heritage is often significantly lower than for those with European ancestry {{FATE}}. This is attributed to the models used being trained and validated using datasets that have less coverage of some groups. People who are affected by this bias are more likely to need to engage with more invasive methods.
 
-One consequence of having multiple imperfect techniques is the need to recognize that any system will be imperfect. That cuts in both directions:
+One consequence of having multiple imperfect techniques is the need to recognize that any system will be imperfect. That creates several tensions:
 
 * Some people will never be able to satisfy age assurance checks and will therefore be excluded by strict assurance mandates. Here, discussions acknowledged that purely technical systems are likely inadequate.
 * Some people who should be blocked from accessing content or services will find ways to circumvent restrictions. In this context, the term "advanced persistent teenager" was recognized as characterizing the nature of the "adversary": individuals who are considered too young to access content, but who are highly motivated, technically sophisticated, and have time to spare.
 * Offering more choices to people can improve privacy because they get to choose the method that suits them. However, when a chosen method fails, having to engage with additional methods has a higher privacy cost.
 
-Some participants argued that accepting these risks is necessary in order to gain any of the benefits that age-based restrictions might confer. However, it was clear that other participants were unwilling to accept potential impositions on individual rights in light of the insufficiency of restrictions in providing meaningful protection; see {{holistic}}.
+Some participants argued that accepting these risks is necessary in order to gain any of the benefits that age-based restrictions might confer. Other participants were unwilling to accept potential impositions on individual rights in light of the insufficiency of restrictions in providing meaningful protection; see {{holistic}}.
 
 ## Mapping the Risks for Architectures is a Useful Next Step {#risks}
 
 How the identified roles (see {{roles}}) are arranged into architectures was some of the more substantive discussion. {{JACKSON}} describes some of the alternatives, along with some of the implications that arise from different arrangements.
 
-Throughout this discussion, it was acknowledged that active deployments tended to fall into a common basic pattern. Several participants noted that this is a somewhat natural consequence of some of the constraints that actors are subject to.
+Throughout this discussion, it was acknowledged that active deployments tended to fall into a common pattern, where content providers are required to age-gate access and contract a third party to interpose that service. Several participants noted that this is a somewhat natural consequence of some of the constraints that actors are subject to.
 
 An observation was made that laws often seek to designate a single entity as being responsible for ensuring that age restrictions are effective. That lawmakers feel the need to designate a responsible entity is due to constraints on how laws function, but one that creates other constraints.
 
