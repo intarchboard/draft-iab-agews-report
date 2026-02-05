@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-02-03T00:57:40.347610+00:00",
+  "timestamp": "2026-02-05T00:56:49.176692+00:00",
   "repo": "intarchboard/draft-iab-agews-report",
   "labels": [
     {
@@ -127,7 +127,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2026-01-07T06:37:34Z",
-      "updatedAt": "2026-01-07T07:11:21Z",
+      "updatedAt": "2026-02-04T04:37:49Z",
       "baseRepository": "intarchboard/draft-iab-agews-report",
       "baseRefName": "main",
       "baseRefOid": "c45b24cb51854ed94942496d0fcfab8141254914",
@@ -152,6 +152,13 @@
           "body": "Looks good! Thanks for considering it! ",
           "createdAt": "2026-01-07T06:44:31Z",
           "updatedAt": "2026-01-07T06:44:31Z"
+        },
+        {
+          "author": "dhruvdhody",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Let me make another proposal, how do you feel about adding this sentence in the existing [section 3.6. Mapping the Risks for Architectures is a Useful Next Step](https://intarchboard.github.io/draft-iab-agews-report/draft-iab-agews-report.html#section-3.6) \r\n\r\n> Some participants noted that certain architectural approaches may carry higher path-dependence risk than others once widely deployed, even if they remain theoretically possible to withdraw or replace. This risk can arise from accumulated architectural dependencies, operational integration with third-party services, and evolving expectations among users and service providers. As a result, architectures that tightly couple functionality to external verification services or embed assumptions about routine age signalling may increase the practical cost of transition, should alternative approaches later emerge that address privacy, equity, or effectiveness concerns more effectively.\r\n\r\n@martinthomson @mnot ",
+          "createdAt": "2026-02-04T04:37:48Z",
+          "updatedAt": "2026-02-04T04:37:48Z"
         }
       ],
       "reviews": [
