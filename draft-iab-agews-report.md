@@ -245,7 +245,29 @@ Throughout this discussion, it was acknowledged that active deployments tended t
 ~~~
 {: #f-typical title="Typical Deployment Model"}
 
+
 Some participants also noted that certain approaches may carry higher path-dependence risk once widely deployed, even if they remain theoretically possible to withdraw or replace. This can arise from accumulated architectural dependencies, operational integration with third-party services, and evolving expectations among users and service providers. As a result, architectures that tightly couple functionality to external verification services or embed assumptions about routine age signalling may increase the practical cost of transition, should alternative approaches later emerge that address privacy, equity, or effectiveness concerns more effectively.
+
+{{f-device}} shows a deployment model for parental control software, showing how the roles from {{roles}} might apply. Here, parental controls do any verification of age necessary and select policies; content ratings might be performed by websites or the parental control software on the device; enforcement is performed on-device.
+
+~~~ aasvg
+   o
+---+---  +------------+       Visits         +-----------+
+   |     |            |--------------------->|           |
+   +     |  Browser   |    (Rated) Content   |  Website  |  Rater*
+  / \    |            |<---------------------|           |
+ /   \   +------------+                      +-----------+
+               ^     ^
+               |      \
+               |       \__ Rater* +
+               |           Enforcer
+               |
+         +------------+
+         |  Parental  |  Verifier +
+         |  Controls  |  Policy Selector
+         +------------+
+~~~
+{: #f-device title="Parental Control Deployment Model"}
 
 An observation was made that laws often seek to designate a single entity as being responsible for ensuring that age restrictions are effective. That lawmakers feel the need to designate a responsible entity is due to constraints on how laws function, but one that creates other constraints.
 
