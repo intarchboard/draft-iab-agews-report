@@ -512,7 +512,31 @@ Table of Contents
    providers are required to age-gate access and contract a third party
    to interpose that service.  Several participants noted that this is a
    somewhat natural consequence of some of the constraints that actors
-   are subject to.
+   are subject to.  Figure 1 shows the typical deployment model for age-
+   gated content and services, along with the roles from Section 3.2.
+
+      o
+   ---+---  +------------+                      +-----------+
+      |     |            |       Visits         |           |  Rater +
+      +     |  Browser   |--------------------->|  Website  |  Policy
+     / \    |            |                  .---|           |  Selector
+    /   \   +------------+                 |    +-----------+
+                  |   |      Redirected To |
+                  |   |                    |    +-----------+
+                  |   |                     '-->|           |
+                  |   |     Evidence of Age     |    Age    |
+                  |    '----------------------->| Assurance |  Verifier
+                  |                             |  Service  |
+                  |                         .---|           |
+                  |                        |    +-----------+
+                  |          Redirected To |
+                  |                        |    +-----------+
+                  |                         '-->|    Age-   |
+                  |           Admitted          |   Gated   |  Enforcer
+                   '--------------------------->|  Content  |
+                            or Blocked          +-----------+
+
+                     Figure 1: Typical Deployment Model
 
    Some participants also noted that certain approaches may carry higher
    path-dependence risk once widely deployed, even if they remain
@@ -524,6 +548,30 @@ Table of Contents
    about routine age signalling may increase the practical cost of
    transition, should alternative approaches later emerge that address
    privacy, equity, or effectiveness concerns more effectively.
+
+   Figure 2 shows a deployment model for parental control software,
+   showing how the roles from Section 3.2 might apply.  Here, parental
+   controls do any verification of age necessary and select policies;
+   content ratings might be performed by websites or the parental
+   control software on the device; enforcement is performed on-device.
+
+      o
+   ---+---  +------------+       Visits         +-----------+
+      |     |            |--------------------->|           |
+      +     |  Browser   |    (Rated) Content   |  Website  |  Rater*
+     / \    |            |<---------------------|           |
+    /   \   +------------+                      +-----------+
+                  ^     ^
+                  |      \
+                  |       \__ Rater* +
+                  |           Enforcer
+                  |
+            +------------+
+            |  Parental  |  Verifier +
+            |  Controls  |  Policy Selector
+            +------------+
+
+                Figure 2: Parental Control Deployment Model
 
    An observation was made that laws often seek to designate a single
    entity as being responsible for ensuring that age restrictions are

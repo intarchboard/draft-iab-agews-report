@@ -1472,13 +1472,151 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="#section-3.6" class="section-number selfRef">3.6. </a><a href="#name-mapping-the-risks-for-archi" class="section-name selfRef">Mapping the Risks for Architectures is a Useful Next Step</a>
         </h3>
 <p id="section-3.6-1">How the identified roles (see <a href="#roles" class="auto internal xref">Section 3.2</a>) are arranged into architectures was some of the more substantive discussion. <span>[<a href="#JACKSON" class="cite xref">JACKSON</a>]</span> describes some of the alternatives, along with some of the implications that arise from different arrangements.<a href="#section-3.6-1" class="pilcrow">¶</a></p>
-<p id="section-3.6-2">Throughout this discussion, it was acknowledged that active deployments tended to fall into a common pattern, where content providers are required to age-gate access and contract a third party to interpose that service. Several participants noted that this is a somewhat natural consequence of some of the constraints that actors are subject to.<a href="#section-3.6-2" class="pilcrow">¶</a></p>
-<p id="section-3.6-3">Some participants also noted that certain approaches may carry higher path-dependence risk once widely deployed, even if they remain theoretically possible to withdraw or replace. This can arise from accumulated architectural dependencies, operational integration with third-party services, and evolving expectations among users and service providers. As a result, architectures that tightly couple functionality to external verification services or embed assumptions about routine age signalling may increase the practical cost of transition, should alternative approaches later emerge that address privacy, equity, or effectiveness concerns more effectively.<a href="#section-3.6-3" class="pilcrow">¶</a></p>
-<p id="section-3.6-4">An observation was made that laws often seek to designate a single entity as being responsible for ensuring that age restrictions are effective. That lawmakers feel the need to designate a responsible entity is due to constraints on how laws function, but one that creates other constraints.<a href="#section-3.6-4" class="pilcrow">¶</a></p>
-<p id="section-3.6-5">Another constraint identified was the need for specialist expertise in order to administer all of the multiple different age assurance techniques; see <a href="#waterfall" class="auto internal xref">Section 3.5</a>. This means that there is a natural tendency for services to contract with specialist age assurance services.<a href="#section-3.6-5" class="pilcrow">¶</a></p>
-<p id="section-3.6-6">Some of the proposed architectures were better able to operate under these constraints. Others required greater amounts of coordination, further emphasizing the importance of collaboration identified in <a href="#collaboration" class="auto internal xref">Section 3.1</a>.<a href="#section-3.6-6" class="pilcrow">¶</a></p>
-<p id="section-3.6-7">In discussion of the constraints on different architectures, it was common for participants to point to a particular aspect of a given approach as carrying risks. Indeed, the final reckoning of risks produced a long list of potential issues that might need mitigation (see <a href="#impacts" class="auto internal xref">Appendix C</a>).<a href="#section-3.6-7" class="pilcrow">¶</a></p>
-<p id="section-3.6-8">Architectures are not equally vulnerable to different risks, so a more thorough analysis is needed to identify how each risk applies to a different approach. An analysis that considers the constraints and assumptions necessary to successfully deploy different architectures is a contribution that would likely be welcomed by the community.<a href="#section-3.6-8" class="pilcrow">¶</a></p>
+<p id="section-3.6-2">Throughout this discussion, it was acknowledged that active deployments tended to fall into a common pattern, where content providers are required to age-gate access and contract a third party to interpose that service. Several participants noted that this is a somewhat natural consequence of some of the constraints that actors are subject to.  <a href="#f-typical" class="auto internal xref">Figure 1</a> shows the typical deployment model for age-gated content and services, along with the roles from <a href="#roles" class="auto internal xref">Section 3.2</a>.<a href="#section-3.6-2" class="pilcrow">¶</a></p>
+<span id="name-typical-deployment-model"></span><div id="f-typical">
+<figure id="figure-1">
+          <div id="section-3.6-3.1">
+            <div class="alignLeft art-svg artwork" id="section-3.6-3.1.1">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="352" width="552" viewBox="0 0 552 352" class="diagram" text-anchor="middle" font-family="monospace" font-size="13px" stroke-linecap="round">
+                <path d="M 32,32 L 32,80" fill="none" stroke="black"></path>
+                <path d="M 80,48 L 80,112" fill="none" stroke="black"></path>
+                <path d="M 128,120 L 128,304" fill="none" stroke="black"></path>
+                <path d="M 160,120 L 160,176" fill="none" stroke="black"></path>
+                <path d="M 184,48 L 184,112" fill="none" stroke="black"></path>
+                <path d="M 328,112 L 328,144" fill="none" stroke="black"></path>
+                <path d="M 328,240 L 328,272" fill="none" stroke="black"></path>
+                <path d="M 368,48 L 368,112" fill="none" stroke="black"></path>
+                <path d="M 368,144 L 368,240" fill="none" stroke="black"></path>
+                <path d="M 368,272 L 368,336" fill="none" stroke="black"></path>
+                <path d="M 464,48 L 464,112" fill="none" stroke="black"></path>
+                <path d="M 464,144 L 464,240" fill="none" stroke="black"></path>
+                <path d="M 464,272 L 464,336" fill="none" stroke="black"></path>
+                <path d="M 8,48 L 56,48" fill="none" stroke="black"></path>
+                <path d="M 80,48 L 184,48" fill="none" stroke="black"></path>
+                <path d="M 368,48 L 464,48" fill="none" stroke="black"></path>
+                <path d="M 192,80 L 360,80" fill="none" stroke="black"></path>
+                <path d="M 344,96 L 360,96" fill="none" stroke="black"></path>
+                <path d="M 80,112 L 184,112" fill="none" stroke="black"></path>
+                <path d="M 368,112 L 464,112" fill="none" stroke="black"></path>
+                <path d="M 368,144 L 464,144" fill="none" stroke="black"></path>
+                <path d="M 344,160 L 360,160" fill="none" stroke="black"></path>
+                <path d="M 176,192 L 360,192" fill="none" stroke="black"></path>
+                <path d="M 344,224 L 360,224" fill="none" stroke="black"></path>
+                <path d="M 368,240 L 464,240" fill="none" stroke="black"></path>
+                <path d="M 368,272 L 464,272" fill="none" stroke="black"></path>
+                <path d="M 344,288 L 360,288" fill="none" stroke="black"></path>
+                <path d="M 144,320 L 360,320" fill="none" stroke="black"></path>
+                <path d="M 368,336 L 464,336" fill="none" stroke="black"></path>
+                <path d="M 32,80 L 48,112" fill="none" stroke="black"></path>
+                <path d="M 16,112 L 32,80" fill="none" stroke="black"></path>
+                <path d="M 344,96 C 335.16936,96 328,103.16936 328,112" fill="none" stroke="black"></path>
+                <path d="M 344,160 C 335.16936,160 328,152.83064 328,144" fill="none" stroke="black"></path>
+                <path d="M 176,192 C 167.16936,192 160,184.83064 160,176" fill="none" stroke="black"></path>
+                <path d="M 344,224 C 335.16936,224 328,231.16936 328,240" fill="none" stroke="black"></path>
+                <path d="M 344,288 C 335.16936,288 328,280.83064 328,272" fill="none" stroke="black"></path>
+                <path d="M 144,320 C 135.16936,320 128,312.83064 128,304" fill="none" stroke="black"></path>
+                <polygon class="arrowhead" points="368,320 356,314.4 356,325.6" fill="black" transform="rotate(0,360,320)"></polygon>
+                <polygon class="arrowhead" points="368,288 356,282.4 356,293.6" fill="black" transform="rotate(0,360,288)"></polygon>
+                <polygon class="arrowhead" points="368,192 356,186.4 356,197.6" fill="black" transform="rotate(0,360,192)"></polygon>
+                <polygon class="arrowhead" points="368,160 356,154.4 356,165.6" fill="black" transform="rotate(0,360,160)"></polygon>
+                <polygon class="arrowhead" points="368,80 356,74.4 356,85.6" fill="black" transform="rotate(0,360,80)"></polygon>
+                <circle cx="32" cy="32" r="6" class="opendot" fill="white" stroke="black"></circle>
+                <g class="text">
+                  <text x="268" y="68">Visits</text>
+                  <text x="504" y="68">Rater</text>
+                  <text x="536" y="68">+</text>
+                  <text x="128" y="84">Browser</text>
+                  <text x="416" y="84">Website</text>
+                  <text x="508" y="84">Policy</text>
+                  <text x="516" y="100">Selector</text>
+                  <text x="252" y="132">Redirected</text>
+                  <text x="308" y="132">To</text>
+                  <text x="236" y="180">Evidence</text>
+                  <text x="284" y="180">of</text>
+                  <text x="312" y="180">Age</text>
+                  <text x="416" y="180">Age</text>
+                  <text x="416" y="196">Assurance</text>
+                  <text x="516" y="196">Verifier</text>
+                  <text x="416" y="212">Service</text>
+                  <text x="252" y="260">Redirected</text>
+                  <text x="308" y="260">To</text>
+                  <text x="420" y="292">Age-</text>
+                  <text x="252" y="308">Admitted</text>
+                  <text x="416" y="308">Gated</text>
+                  <text x="516" y="308">Enforcer</text>
+                  <text x="416" y="324">Content</text>
+                  <text x="212" y="340">or</text>
+                  <text x="256" y="340">Blocked</text>
+                </g>
+              </svg><a href="#section-3.6-3.1.1" class="pilcrow">¶</a>
+</div>
+</div>
+<figcaption><a href="#figure-1" class="selfRef">Figure 1</a>:
+<a href="#name-typical-deployment-model" class="selfRef">Typical Deployment Model</a>
+          </figcaption></figure>
+</div>
+<p id="section-3.6-4">Some participants also noted that certain approaches may carry higher path-dependence risk once widely deployed, even if they remain theoretically possible to withdraw or replace. This can arise from accumulated architectural dependencies, operational integration with third-party services, and evolving expectations among users and service providers. As a result, architectures that tightly couple functionality to external verification services or embed assumptions about routine age signalling may increase the practical cost of transition, should alternative approaches later emerge that address privacy, equity, or effectiveness concerns more effectively.<a href="#section-3.6-4" class="pilcrow">¶</a></p>
+<p id="section-3.6-5"><a href="#f-device" class="auto internal xref">Figure 2</a> shows a deployment model for parental control software, showing how the roles from <a href="#roles" class="auto internal xref">Section 3.2</a> might apply. Here, parental controls do any verification of age necessary and select policies; content ratings might be performed by websites or the parental control software on the device; enforcement is performed on-device.<a href="#section-3.6-5" class="pilcrow">¶</a></p>
+<span id="name-parental-control-deployment"></span><div id="f-device">
+<figure id="figure-2">
+          <div id="section-3.6-6.1">
+            <div class="alignLeft art-svg artwork" id="section-3.6-6.1.1">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="272" width="536" viewBox="0 0 536 272" class="diagram" text-anchor="middle" font-family="monospace" font-size="13px" stroke-linecap="round">
+                <path d="M 32,32 L 32,80" fill="none" stroke="black"></path>
+                <path d="M 80,48 L 80,112" fill="none" stroke="black"></path>
+                <path d="M 80,208 L 80,256" fill="none" stroke="black"></path>
+                <path d="M 128,120 L 128,200" fill="none" stroke="black"></path>
+                <path d="M 184,48 L 184,112" fill="none" stroke="black"></path>
+                <path d="M 184,208 L 184,256" fill="none" stroke="black"></path>
+                <path d="M 368,48 L 368,112" fill="none" stroke="black"></path>
+                <path d="M 464,48 L 464,112" fill="none" stroke="black"></path>
+                <path d="M 8,48 L 56,48" fill="none" stroke="black"></path>
+                <path d="M 80,48 L 184,48" fill="none" stroke="black"></path>
+                <path d="M 368,48 L 464,48" fill="none" stroke="black"></path>
+                <path d="M 192,64 L 360,64" fill="none" stroke="black"></path>
+                <path d="M 192,96 L 360,96" fill="none" stroke="black"></path>
+                <path d="M 80,112 L 184,112" fill="none" stroke="black"></path>
+                <path d="M 368,112 L 464,112" fill="none" stroke="black"></path>
+                <path d="M 80,208 L 184,208" fill="none" stroke="black"></path>
+                <path d="M 80,256 L 184,256" fill="none" stroke="black"></path>
+                <path d="M 32,80 L 48,112" fill="none" stroke="black"></path>
+                <path d="M 172,120 L 196,168" fill="none" stroke="black"></path>
+                <path d="M 16,112 L 32,80" fill="none" stroke="black"></path>
+                <path d="M 196,168 L 212,168" fill="none" stroke="black"></path>
+                <polygon class="arrowhead" points="368,64 356,58.4 356,69.6" fill="black" transform="rotate(0,360,64)"></polygon>
+                <polygon class="arrowhead" points="200,96 188,90.4 188,101.6" fill="black" transform="rotate(180,192,96)"></polygon>
+                <polygon class="arrowhead" points="180,120 168,114.4 168,125.6" fill="black" transform="rotate(243.43494882292202,172,120)"></polygon>
+                <polygon class="arrowhead" points="136,120 124,114.4 124,125.6" fill="black" transform="rotate(270,128,120)"></polygon>
+                <circle cx="32" cy="32" r="6" class="opendot" fill="white" stroke="black"></circle>
+                <g class="text">
+                  <text x="268" y="52">Visits</text>
+                  <text x="128" y="84">Browser</text>
+                  <text x="248" y="84">(Rated)</text>
+                  <text x="312" y="84">Content</text>
+                  <text x="416" y="84">Website</text>
+                  <text x="508" y="84">Rater*</text>
+                  <text x="244" y="164">Rater*</text>
+                  <text x="280" y="164">+</text>
+                  <text x="252" y="180">Enforcer</text>
+                  <text x="132" y="228">Parental</text>
+                  <text x="236" y="228">Verifier</text>
+                  <text x="280" y="228">+</text>
+                  <text x="132" y="244">Controls</text>
+                  <text x="228" y="244">Policy</text>
+                  <text x="292" y="244">Selector</text>
+                </g>
+              </svg><a href="#section-3.6-6.1.1" class="pilcrow">¶</a>
+</div>
+</div>
+<figcaption><a href="#figure-2" class="selfRef">Figure 2</a>:
+<a href="#name-parental-control-deployment" class="selfRef">Parental Control Deployment Model</a>
+          </figcaption></figure>
+</div>
+<p id="section-3.6-7">An observation was made that laws often seek to designate a single entity as being responsible for ensuring that age restrictions are effective. That lawmakers feel the need to designate a responsible entity is due to constraints on how laws function, but one that creates other constraints.<a href="#section-3.6-7" class="pilcrow">¶</a></p>
+<p id="section-3.6-8">Another constraint identified was the need for specialist expertise in order to administer all of the multiple different age assurance techniques; see <a href="#waterfall" class="auto internal xref">Section 3.5</a>. This means that there is a natural tendency for services to contract with specialist age assurance services.<a href="#section-3.6-8" class="pilcrow">¶</a></p>
+<p id="section-3.6-9">Some of the proposed architectures were better able to operate under these constraints. Others required greater amounts of coordination, further emphasizing the importance of collaboration identified in <a href="#collaboration" class="auto internal xref">Section 3.1</a>.<a href="#section-3.6-9" class="pilcrow">¶</a></p>
+<p id="section-3.6-10">In discussion of the constraints on different architectures, it was common for participants to point to a particular aspect of a given approach as carrying risks. Indeed, the final reckoning of risks produced a long list of potential issues that might need mitigation (see <a href="#impacts" class="auto internal xref">Appendix C</a>).<a href="#section-3.6-10" class="pilcrow">¶</a></p>
+<p id="section-3.6-11">Architectures are not equally vulnerable to different risks, so a more thorough analysis is needed to identify how each risk applies to a different approach. An analysis that considers the constraints and assumptions necessary to successfully deploy different architectures is a contribution that would likely be welcomed by the community.<a href="#section-3.6-11" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="holistic">
