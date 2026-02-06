@@ -221,13 +221,15 @@ How the identified roles (see {{roles}}) are arranged into architectures was som
 
 Throughout this discussion, it was acknowledged that active deployments tended to fall into a common pattern, where content providers are required to age-gate access and contract a third party to interpose that service. Several participants noted that this is a somewhat natural consequence of some of the constraints that actors are subject to.
 
+Some participants also noted that certain approaches may carry higher path-dependence risk once widely deployed, even if they remain theoretically possible to withdraw or replace. This can arise from accumulated architectural dependencies, operational integration with third-party services, and evolving expectations among users and service providers. As a result, architectures that tightly couple functionality to external verification services or embed assumptions about routine age signalling may increase the practical cost of transition, should alternative approaches later emerge that address privacy, equity, or effectiveness concerns more effectively.
+
 An observation was made that laws often seek to designate a single entity as being responsible for ensuring that age restrictions are effective. That lawmakers feel the need to designate a responsible entity is due to constraints on how laws function, but one that creates other constraints.
 
 Another constraint identified was the need for specialist expertise in order to administer all of the multiple different age assurance techniques; see {{waterfall}}. This means that there is a natural tendency for services to contract with specialist age assurance services.
 
 Some of the proposed architectures were better able to operate under these constraints. Others required greater amounts of coordination, further emphasizing the importance of collaboration identified in {{collaboration}}.
 
-In discussion of the constraints on different architectures, it was common for participants to point to a particular aspect of a given approach as carrying risks. Indeed, the final reckoning of risks produced a long list of potential issues that might need mitigation.
+In discussion of the constraints on different architectures, it was common for participants to point to a particular aspect of a given approach as carrying risks. Indeed, the final reckoning of risks produced a long list of potential issues that might need mitigation (see {{impacts}}).
 
 Architectures are not equally vulnerable to different risks, so a more thorough analysis is needed to identify how each risk applies to a different approach. An analysis that considers the constraints and assumptions necessary to successfully deploy different architectures is a contribution that would likely be welcomed by the community.
 
@@ -360,7 +362,7 @@ Attendees of the workshop are listed with their primary affiliation. Attendees f
 * Benjamin VanderSloot, Mozilla
 * Tara Whalen, World Wide Web Consortium (PC)
 
-# Potential Impacts
+# Potential Impacts {#impacts}
 
 During the workshop, participants were asked to name potential impacts -- whether positive or negative -- that could be seen in association with the introduction of an age control mechanism. This list is not exhaustive, focuses largely on the challenges surrounding the introduction of such a mechanism, and does not imply that all points were agreed to by all participants'
 
