@@ -27,7 +27,7 @@
     pycountry 24.6.1
     PyYAML 6.0.3
     requests 2.32.5
-    wcwidth 0.2.14
+    wcwidth 0.3.0
 -->
 <link href="draft-iab-agews-report.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
@@ -568,6 +568,7 @@ aside, blockquote {
 }
 blockquote {
   margin: 1em 0;
+  border-left: 2px var(--pilcrow-strong) solid;
 }
 cite {
   display: block;
@@ -638,7 +639,7 @@ a.pilcrow {
   }
 }
 @media not print {
-  :hover > a.pilcrow {
+  :hover > a.pilcrow, a.pilcrow:focus {
     opacity: 1;
   }
   a.pilcrow[href]:hover {
@@ -1046,11 +1047,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">AGEWS Report</td>
-<td class="right">January 2026</td>
+<td class="right">February 2026</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Nottingham &amp; Thomson</td>
-<td class="center">Expires 23 July 2026</td>
+<td class="center">Expires 10 August 2026</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1063,12 +1064,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-iab-agews-report-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2026-01-19" class="published">19 January 2026</time>
+<time datetime="2026-02-06" class="published">6 February 2026</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2026-07-23">23 July 2026</time></dd>
+<dd class="expires"><time datetime="2026-08-10">10 August 2026</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1116,7 +1117,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 23 July 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 10 August 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1472,11 +1473,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
         </h3>
 <p id="section-3.6-1">How the identified roles (see <a href="#roles" class="auto internal xref">Section 3.2</a>) are arranged into architectures was some of the more substantive discussion. <span>[<a href="#JACKSON" class="cite xref">JACKSON</a>]</span> describes some of the alternatives, along with some of the implications that arise from different arrangements.<a href="#section-3.6-1" class="pilcrow">¶</a></p>
 <p id="section-3.6-2">Throughout this discussion, it was acknowledged that active deployments tended to fall into a common pattern, where content providers are required to age-gate access and contract a third party to interpose that service. Several participants noted that this is a somewhat natural consequence of some of the constraints that actors are subject to.<a href="#section-3.6-2" class="pilcrow">¶</a></p>
-<p id="section-3.6-3">An observation was made that laws often seek to designate a single entity as being responsible for ensuring that age restrictions are effective. That lawmakers feel the need to designate a responsible entity is due to constraints on how laws function, but one that creates other constraints.<a href="#section-3.6-3" class="pilcrow">¶</a></p>
-<p id="section-3.6-4">Another constraint identified was the need for specialist expertise in order to administer all of the multiple different age assurance techniques; see <a href="#waterfall" class="auto internal xref">Section 3.5</a>. This means that there is a natural tendency for services to contract with specialist age assurance services.<a href="#section-3.6-4" class="pilcrow">¶</a></p>
-<p id="section-3.6-5">Some of the proposed architectures were better able to operate under these constraints. Others required greater amounts of coordination, further emphasizing the importance of collaboration identified in <a href="#collaboration" class="auto internal xref">Section 3.1</a>.<a href="#section-3.6-5" class="pilcrow">¶</a></p>
-<p id="section-3.6-6">In discussion of the constraints on different architectures, it was common for participants to point to a particular aspect of a given approach as carrying risks. Indeed, the final reckoning of risks produced a long list of potential issues that might need mitigation.<a href="#section-3.6-6" class="pilcrow">¶</a></p>
-<p id="section-3.6-7">Architectures are not equally vulnerable to different risks, so a more thorough analysis is needed to identify how each risk applies to a different approach. An analysis that considers the constraints and assumptions necessary to successfully deploy different architectures is a contribution that would likely be welcomed by the community.<a href="#section-3.6-7" class="pilcrow">¶</a></p>
+<p id="section-3.6-3">Some participants also noted that certain approaches may carry higher path-dependence risk once widely deployed, even if they remain theoretically possible to withdraw or replace. This can arise from accumulated architectural dependencies, operational integration with third-party services, and evolving expectations among users and service providers. As a result, architectures that tightly couple functionality to external verification services or embed assumptions about routine age signalling may increase the practical cost of transition, should alternative approaches later emerge that address privacy, equity, or effectiveness concerns more effectively.<a href="#section-3.6-3" class="pilcrow">¶</a></p>
+<p id="section-3.6-4">An observation was made that laws often seek to designate a single entity as being responsible for ensuring that age restrictions are effective. That lawmakers feel the need to designate a responsible entity is due to constraints on how laws function, but one that creates other constraints.<a href="#section-3.6-4" class="pilcrow">¶</a></p>
+<p id="section-3.6-5">Another constraint identified was the need for specialist expertise in order to administer all of the multiple different age assurance techniques; see <a href="#waterfall" class="auto internal xref">Section 3.5</a>. This means that there is a natural tendency for services to contract with specialist age assurance services.<a href="#section-3.6-5" class="pilcrow">¶</a></p>
+<p id="section-3.6-6">Some of the proposed architectures were better able to operate under these constraints. Others required greater amounts of coordination, further emphasizing the importance of collaboration identified in <a href="#collaboration" class="auto internal xref">Section 3.1</a>.<a href="#section-3.6-6" class="pilcrow">¶</a></p>
+<p id="section-3.6-7">In discussion of the constraints on different architectures, it was common for participants to point to a particular aspect of a given approach as carrying risks. Indeed, the final reckoning of risks produced a long list of potential issues that might need mitigation (see <a href="#impacts" class="auto internal xref">Appendix C</a>).<a href="#section-3.6-7" class="pilcrow">¶</a></p>
+<p id="section-3.6-8">Architectures are not equally vulnerable to different risks, so a more thorough analysis is needed to identify how each risk applies to a different approach. An analysis that considers the constraints and assumptions necessary to successfully deploy different architectures is a contribution that would likely be welcomed by the community.<a href="#section-3.6-8" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="holistic">
@@ -1804,7 +1806,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
       </ul>
 </section>
 </div>
-<div id="potential-impacts">
+<div id="impacts">
 <section id="appendix-C">
       <h2 id="name-potential-impacts">
 <a href="#appendix-C" class="section-number selfRef">Appendix C. </a><a href="#name-potential-impacts" class="section-name selfRef">Potential Impacts</a>
