@@ -219,9 +219,55 @@ Some participants argued that accepting these risks is necessary in order to gai
 
 How the identified roles (see {{roles}}) are arranged into architectures was some of the more substantive discussion. {{JACKSON}} describes some of the alternatives, along with some of the implications that arise from different arrangements.
 
-Throughout this discussion, it was acknowledged that active deployments tended to fall into a common pattern, where content providers are required to age-gate access and contract a third party to interpose that service. Several participants noted that this is a somewhat natural consequence of some of the constraints that actors are subject to.
+Throughout this discussion, it was acknowledged that active deployments tended to fall into a common pattern, where content providers are required to age-gate access and contract a third party to interpose that service. Several participants noted that this is a somewhat natural consequence of some of the constraints that actors are subject to.  {{f-typical}} shows the typical deployment model for age-gated content and services, along with the roles from {{roles}}.
+
+~~~ aasvg
+   o
+---+---  +------------+                      +-----------+
+   |     |            |       Visits         |           |  Rater +
+   +     |  Browser   |--------------------->|  Website  |  Policy
+  / \    |            |                  .---|           |  Selector
+ /   \   +------------+                 |    +-----------+
+               |   |      Redirected To |
+               |   |                    |    +-----------+
+               |   |                     '-->|           |
+               |   |     Evidence of Age     |    Age    |
+               |    '----------------------->| Assurance |  Verifier
+               |                             |  Service  |
+               |                         .---|           |
+               |                        |    +-----------+
+               |          Redirected To |
+               |                        |    +-----------+
+               |                         '-->|    Age-   |
+               |           Admitted          |   Gated   |  Enforcer
+                '--------------------------->|  Content  |
+                         or Blocked          +-----------+
+~~~
+{: #f-typical title="Typical Deployment Model"}
+
 
 Some participants also noted that certain approaches may carry higher path-dependence risk once widely deployed, even if they remain theoretically possible to withdraw or replace. This can arise from accumulated architectural dependencies, operational integration with third-party services, and evolving expectations among users and service providers. As a result, architectures that tightly couple functionality to external verification services or embed assumptions about routine age signalling may increase the practical cost of transition, should alternative approaches later emerge that address privacy, equity, or effectiveness concerns more effectively.
+
+{{f-device}} shows a deployment model for parental control software, showing how the roles from {{roles}} might apply. Here, parental controls do any verification of age necessary and select policies; content ratings might be performed by websites or the parental control software on the device; enforcement is performed on-device.
+
+~~~ aasvg
+   o
+---+---  +------------+       Visits         +-----------+
+   |     |            |--------------------->|           |
+   +     |  Browser   |    (Rated) Content   |  Website  |  Rater*
+  / \    |            |<---------------------|           |
+ /   \   +------------+                      +-----------+
+               ^     ^
+               |      \
+               |       \__ Rater* +
+               |           Enforcer
+               |
+         +------------+
+         |  Parental  |  Verifier +
+         |  Controls  |  Policy Selector
+         +------------+
+~~~
+{: #f-device title="Parental Control Deployment Model"}
 
 An observation was made that laws often seek to designate a single entity as being responsible for ensuring that age restrictions are effective. That lawmakers feel the need to designate a responsible entity is due to constraints on how laws function, but one that creates other constraints.
 
