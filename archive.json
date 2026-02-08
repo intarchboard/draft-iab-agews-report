@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-02-05T00:56:49.176692+00:00",
+  "timestamp": "2026-02-08T01:12:07.114092+00:00",
   "repo": "intarchboard/draft-iab-agews-report",
   "labels": [
     {
@@ -120,21 +120,21 @@
       "id": "PR_kwDOQzuCks672HEg",
       "title": "Dhruv's suggestions",
       "url": "https://github.com/intarchboard/draft-iab-agews-report/pull/3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mnot",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2026-01-07T06:37:34Z",
-      "updatedAt": "2026-02-04T04:37:49Z",
+      "updatedAt": "2026-02-06T04:09:13Z",
       "baseRepository": "intarchboard/draft-iab-agews-report",
       "baseRefName": "main",
       "baseRefOid": "c45b24cb51854ed94942496d0fcfab8141254914",
       "headRepository": "intarchboard/draft-iab-agews-report",
       "headRefName": "mnot/moar",
       "headRefOid": "9f0394b5482c0451ee6df5c4a54ab2191be3fd91",
-      "closedAt": null,
+      "closedAt": "2026-02-06T04:09:12Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
@@ -159,6 +159,20 @@
           "body": "Let me make another proposal, how do you feel about adding this sentence in the existing [section 3.6. Mapping the Risks for Architectures is a Useful Next Step](https://intarchboard.github.io/draft-iab-agews-report/draft-iab-agews-report.html#section-3.6) \r\n\r\n> Some participants noted that certain architectural approaches may carry higher path-dependence risk than others once widely deployed, even if they remain theoretically possible to withdraw or replace. This risk can arise from accumulated architectural dependencies, operational integration with third-party services, and evolving expectations among users and service providers. As a result, architectures that tightly couple functionality to external verification services or embed assumptions about routine age signalling may increase the practical cost of transition, should alternative approaches later emerge that address privacy, equity, or effectiveness concerns more effectively.\r\n\r\n@martinthomson @mnot ",
           "createdAt": "2026-02-04T04:37:48Z",
           "updatedAt": "2026-02-04T04:37:48Z"
+        },
+        {
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "body": "If I were being pedantic, that isn't a sentence.  Still, it's a useful note to add.",
+          "createdAt": "2026-02-06T00:41:15Z",
+          "updatedAt": "2026-02-06T00:41:15Z"
+        },
+        {
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "See e96e6f. Feel free to argue about the placement. ",
+          "createdAt": "2026-02-06T04:09:12Z",
+          "updatedAt": "2026-02-06T04:09:12Z"
         }
       ],
       "reviews": [
@@ -265,6 +279,90 @@
         }
       ],
       "reviews": []
+    },
+    {
+      "number": 5,
+      "id": "PR_kwDOQzuCks7B6SiF",
+      "title": "A picture",
+      "url": "https://github.com/intarchboard/draft-iab-agews-report/pull/5",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I thought it might be nice to have one of these, but wasn't able to find the time until now.",
+      "createdAt": "2026-02-06T06:06:12Z",
+      "updatedAt": "2026-02-06T06:58:22Z",
+      "baseRepository": "intarchboard/draft-iab-agews-report",
+      "baseRefName": "main",
+      "baseRefOid": "e96e6f273adcd0982ee747bb1898d12da235f43e",
+      "headRepository": "intarchboard/draft-iab-agews-report",
+      "headRefName": "diagram",
+      "headRefOid": "0fe959e01e95b9e3efc127013a68e6f6184c1f6d",
+      "closedAt": "2026-02-06T06:58:21Z",
+      "mergedAt": "2026-02-06T06:58:21Z",
+      "mergedBy": "martinthomson",
+      "mergeCommit": {
+        "oid": "0fe959e01e95b9e3efc127013a68e6f6184c1f6d"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOQzuCks7gLk6U",
+          "commit": {
+            "abbreviatedOid": "0fe959e"
+          },
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "Looks great. I wonder if it would be workable to slip in a diagram of an alternative architecture -- just to stretch readers' perceptions a bit...",
+          "createdAt": "2026-02-06T06:36:55Z",
+          "updatedAt": "2026-02-06T06:36:55Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOQzuCks7B6yQp",
+      "title": "Diagrams\u00b2",
+      "url": "https://github.com/intarchboard/draft-iab-agews-report/pull/6",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Builds on #5 and includes a picture of how we might think of parental control software in light of our defined roles.",
+      "createdAt": "2026-02-06T06:54:25Z",
+      "updatedAt": "2026-02-06T06:58:23Z",
+      "baseRepository": "intarchboard/draft-iab-agews-report",
+      "baseRefName": "main",
+      "baseRefOid": "e96e6f273adcd0982ee747bb1898d12da235f43e",
+      "headRepository": "intarchboard/draft-iab-agews-report",
+      "headRefName": "diagram2",
+      "headRefOid": "819e6ae7993b1024080b46a716bcf94a168a811e",
+      "closedAt": "2026-02-06T06:58:19Z",
+      "mergedAt": "2026-02-06T06:58:19Z",
+      "mergedBy": "martinthomson",
+      "mergeCommit": {
+        "oid": "5dedb5149d9fc88e4320a20a8b5fdae52ebc9265"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOQzuCks7gLzGg",
+          "commit": {
+            "abbreviatedOid": "819e6ae"
+          },
+          "author": "mnot",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "Noice. Let's get a revision out for review.",
+          "createdAt": "2026-02-06T06:57:14Z",
+          "updatedAt": "2026-02-06T06:57:14Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
