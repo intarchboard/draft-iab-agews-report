@@ -86,7 +86,7 @@ In October 2025, the Internet Architecture Board and the World Wide Web Consorti
 
 The primary focus was "to perform a thorough examination of the technical and architectural choices that are involved in solutions for age-based restrictions on access to content", with a goal of "build\[ing] a shared understanding of the properties of various proposed approaches."
 
-See the workshop announcement {{ANNOUNCE}} for details. This report summarises the proceedings of the workshop.
+See the workshop announcement {{ANNOUNCE}} for details; papers and presentation materials are linked from the announcement. This report summarises the proceedings of the workshop.
 
 ## Views Expressed in this Report
 
