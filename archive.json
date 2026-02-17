@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-02-15T01:00:03.970246+00:00",
+  "timestamp": "2026-02-17T00:57:03.686806+00:00",
   "repo": "intarchboard/draft-iab-agews-report",
   "labels": [
     {
@@ -363,6 +363,34 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 7,
+      "id": "PR_kwDOQzuCks7EBUoh",
+      "title": "Note about papers and presentations",
+      "url": "https://github.com/intarchboard/draft-iab-agews-report/pull/7",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Otherwise, it's not obvious where the good stuff can be found.",
+      "createdAt": "2026-02-16T07:07:31Z",
+      "updatedAt": "2026-02-16T23:09:58Z",
+      "baseRepository": "intarchboard/draft-iab-agews-report",
+      "baseRefName": "main",
+      "baseRefOid": "5dedb5149d9fc88e4320a20a8b5fdae52ebc9265",
+      "headRepository": "intarchboard/draft-iab-agews-report",
+      "headRefName": "link-materials",
+      "headRefOid": "23a43ad8d4f6d520cf52833ef1a424d270e45b90",
+      "closedAt": "2026-02-16T23:09:58Z",
+      "mergedAt": "2026-02-16T23:09:58Z",
+      "mergedBy": "mnot",
+      "mergeCommit": {
+        "oid": "dbc6959dfb3c519926bab5866e85a3b263a4aac8"
+      },
+      "comments": [],
+      "reviews": []
     }
   ]
 }
