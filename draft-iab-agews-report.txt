@@ -5,7 +5,7 @@
 Network Working Group                                      M. Nottingham
 Internet-Draft                                                          
 Intended status: Informational                                M. Thomson
-Expires: 20 August 2026                                 16 February 2026
+Expires: 25 September 2026                                 24 March 2026
 
 
  Report from the IAB/W3C Workshop on Age-Based Restrictions on Content
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 August 2026.
+   This Internet-Draft will expire on 25 September 2026.
 
 Copyright Notice
 
@@ -710,25 +710,17 @@ A.3.  Topic: Guiding Principles
    applied.  Including human rights impacts, such as:
 
    *  Privacy and Security
-
    *  Safety and efficacy
-
    *  Censorship and Access
-
    *  Access to the Internet
-
    *  Freedom of Expression
 
    And effects on the internet and web architecture, such as:
 
    *  Deployment, Extensibility and Evolution
-
    *  Avoid Centralization
-
    *  End-to-End
-
    *  One Global Internet/Web
-
    *  Layering and Modularity
 
 A.4.  Topic: Potential Impacts
@@ -757,13 +749,9 @@ A.6.  Topic: Available Techniques
 
    *  Age verification: including server-side solutions using government
       identity systems / ZKP
-
    *  Age estimation: including biometrics and data analysis
-
    *  Age "inference" approaches
-
    *  In-network solutions
-
    *  Classification and On-device / parental control designs
 
 A.7.  Discussion
@@ -788,86 +776,47 @@ Appendix B.  Workshop Attendees
    marked.
 
    *  Steve Bellovin
-
    *  Hadley Beeman, TAG (PC)
-
    *  Matthew Bocci, IAB (Observer)
-
    *  Christian Bormann, SPRIND
-
    *  Marcos Cáceres, TAG (Observer)
-
    *  Andrew Campling, 419 Consulting
-
    *  Sofıa Celi, Brave
-
    *  David Cooke, Aylo
-
    *  Iain Corby, Age Verification Providers Association
-
    *  Dhruv Dhody, IAB (Observer)
-
    *  Nick Doty, Center for Democracy and Technology (PC)
-
    *  Sarah Forland, New America Open Technology Institute
-
    *  Jérôme Gorin, Ecole Polytechnique
-
    *  Alexis Hancock, Electronic Freedom Foundation
-
    *  Julia Hanson, Apple
-
    *  Wes Hardaker, University of Southern California Information
       Sciences Institute
-
    *  Kyle den Hartog, Brave
-
    *  Dennis Jackson, Mozilla
-
    *  Leif Johansson, SIROS Foundation
-
    *  Mallory Knodel, Article 19
-
    *  Mirja Kühlewind, IAB (Observer)
-
    *  Jonathan Langley, Ofcom UK
-
    *  Veronica Lin, Carnegie Mellon University
-
    *  Thibault Meunier, Cloudflare
-
    *  Tom Newton, Qoria
-
    *  Mark Nottingham, IAB (PC Co-Chair)
-
    *  Georgia Osborn, Ofcom UK
-
    *  Tommy Pauly, IAB (PC)
-
    *  John Perrino, Internet Society
-
    *  Eric Rescorla, Knight-Georgetown Institute
-
    *  Beatriz Rocha, Ceweb.br
-
    *  Omari Rodney, Yoti
-
    *  Gianpaolo Scalone, Vodafone
-
    *  Sarah Scheffler, Carnegie Mellon University
-
    *  Andrew Shaw, UK National Cyber Security Centre
-
    *  Aline Sylla, German Federal Commissioner for Data Protection and
       Freedom of Information
-
    *  Martin Thomson, TAG (PC Co-Chair)
-
    *  Carmela Troncoso, EPFL, the Swiss Federal Institute of Technology
       in Lausanne
-
    *  Benjamin VanderSloot, Mozilla
-
    *  Tara Whalen, World Wide Web Consortium (PC)
 
 Appendix C.  Potential Impacts
@@ -882,109 +831,67 @@ Appendix C.  Potential Impacts
 C.1.  Impact on Children
 
    1.  Children encounter online harms
-
    2.  Pushing kids to less safe resources
-
    3.  Kids lose the ability to explore on their own
-
    4.  Diminishing children's rights
 
 C.2.  Ecosystem Impact
 
    1.   Centralization
-
    2.   Fragmentation of the Internet
-
    3.   Increased costs for running a Web site
-
    4.   Chilling effects on use of the Internet
-
    5.   VPNs proliferate
-
    6.   Chilling effects on the publication of borderline content
-
    7.   Less content being available online
-
    8.   Restricting people to a few platforms / services
-
    9.   More use/utility of the Internet due to a perception of safety
-
    10.  More (or all) online services require a verified login
 
 C.3.  Implementation and Deployment Difficulties
 
    1.   Device compatibility
-
    2.   "Advanced Persistent Teenagers"
-
    3.   Difficulties regarding jurisdiction checking
-
    4.   Spillover to other software (e.g., VPNs)
-
    5.   Displacing users from compliant to non-compliant sites
-
    6.   False sense of addressing the problem
-
    7.   Dealing with conflict of laws
-
    8.   Operators pulling out of territories
-
    9.   Increasing the footprint of the deep web
-
    10.  Imposition of cultural norms on other jurisdictions
-
    11.  Technical solutions are reused for other purposes (scope creep)
-
    12.  Dealing with obsolete and non-compliant systems
 
 C.4.  Security and Privacy
 
    1.  Increased cybersecurity risks
-
    2.  Fingerprinting risk
-
    3.  Ad targeting could get creepier
-
    4.  Needing to trust someone on their word without evidence
-
    5.  Normalizing online identity requests -- increase to phishing risk
-
    6.  Data breaches
 
 C.5.  Equity
 
    1.  Lack of access (e.g. due to lack of device support)
-
    2.  Refugees, stateless people, people without identity
-
    3.  Harm to vulnerable people
-
    4.  Not addressing other vulnerable groups (i.e., not age-based)
-
    5.  Lack of availability of redress mechanisms
-
    6.  Users' rights to restitution
-
    7.  Loss of control over and access to data
-
    8.  Risk to anonymity
-
    9.  Loss of ability to run software of your choice
 
 C.6.  Societal Impacts
 
    1.  Air cover for blocking the Internet
-
    2.  User control of the content they see online
-
    3.  Costs to society (e.g., regulatory overhead)
-
    4.  Increased online tracking and state surveillance
-
    5.  Use as a censorship mechanism
-
    6.  Advancing foreign policy goals with censorship
-
    7.  Abuse of guardians who don't cut off their wards
 
 Appendix D.  Desirable and Essential Properties of a Solution
@@ -998,145 +905,92 @@ Appendix D.  Desirable and Essential Properties of a Solution
 D.1.  Functional
 
    1.   Underage don't access content that's inappropriate
-
    2.   Not trivially by-passable
-
    3.   Flexible enough to be provided through different means
-
    4.   Bound to the user
-
    5.   Reliable
-
    6.   Handles user-generated content
-
    7.   Enables differential experiences or age-appropriate design (not
         just blocking)
-
    8.   Agile by design -- assume adversarial engagement
-
    9.   Difficult to bypass
-
    10.  Accurate
 
 D.2.  Accountability and Transparency
 
    1.  Transparency and accountability regarding what is blocked
-
    2.  Minimises the need for trust decisions
-
    3.  Can be independently / publicly verifiable and tested
-
    4.  Auditability
-
    5.  Appeal mechanism for incorrect labelling of content
 
 D.3.  Privacy and Security
 
    1.  Issuer-Verifier and Verifier-Verifier unlinkability
-
    2.  Unlinkability across components
-
    3.  Purpose limitation of the data processed
-
    4.  Security of data processed
-
    5.  Phishing-resistant
-
    6.  Doesn't process or transfer any more data than is necessary
-
    7.  Avoids becoming a tracking vector
 
 D.4.  Equity
 
    1.   Inclusive
-
    2.   Fair -- avoids or minimises bias
-
    3.   Does not create inequalities (e.g., across education, other
         properties)
-
    4.   Discriminates solely upon age, not other properties
-
    5.   Works on open devices
-
    6.   Device independence
-
    7.   Usable by people of all ages to increase their safety online
-
    8.   User choice in who verifies their age, and how
-
    9.   No clear losers
-
    10.  Accessible to people with disabilities
-
    11.  Includes appeal mechanisms for incorrect age determinations
 
 D.5.  Jurisdiction and Geopolitical
 
    1.  Able to handle arbitrary composition of different jurisdictional
        requirements (possibly down to school level)
-
    2.  Applicable globally
-
    3.  Applies the rule of law in the jurisdiction where it applies
        universally
-
    4.  No concentration of power in any one entity (or small group of
        them)
-
    5.  No concentration of power in any country
-
    6.  Aligned to legal duties
-
    7.  Based upon a valid legal basis
 
 D.6.  Usability
 
    1.  Economically sustainable
-
    2.  Low friction for adults
-
    3.  Fast
-
    4.  Comprehensible by users
 
 D.7.  Implementation and Deployment
 
    1.  Low dependency on a single root of trust
-
    2.  Enforceable by a good mix of technology and law
-
    3.  Broad deployability -- not expensive or complex
-
    4.  Decentralized
-
    5.  Future-proof
-
    6.  Ability to report / learn when there are issues in the system /
        telemetry
 
 D.8.  General / Other
 
    1.   Not perfect
-
    2.   Technically robust
-
    3.   Not a single, sole solution
-
    4.   Stable -- resilient
-
    5.   Alignment of incentives among participants
-
    6.   Simple to implement
-
    7.   Resistance to repurposing for censorship
-
    8.   Unable to be used for surveillance
-
    9.   Addresses risk of verification becoming over-prevalent
-
    10.  Accountable governance
-
    11.  Open Standards-based
 
 Authors' Addresses
