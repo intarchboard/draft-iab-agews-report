@@ -324,6 +324,7 @@ Architectural principles give us a framework for evaluating additions and change
 * Censorship and Access
 * Access to the Internet
 * Freedom of Expression
+{:compact}
 
 And effects on the internet and web architecture, such as:
 
@@ -332,6 +333,7 @@ And effects on the internet and web architecture, such as:
 * End-to-End
 * One Global Internet/Web
 * Layering and Modularity
+{:compact}
 
 ## Topic: Potential Impacts
 
@@ -350,6 +352,7 @@ There are several active and proposed systems for age restriction on the Interne
 * Age "inference" approaches
 * In-network solutions
 * Classification and On-device / parental control designs
+{:compact}
 
 ## Discussion
 
@@ -407,6 +410,7 @@ Attendees of the workshop are listed with their primary affiliation. Attendees f
 * Carmela Troncoso, EPFL, the Swiss Federal Institute of Technology in Lausanne
 * Benjamin VanderSloot, Mozilla
 * Tara Whalen, World Wide Web Consortium (PC)
+{:compact}
 
 # Potential Impacts {#impacts}
 
@@ -418,6 +422,7 @@ During the workshop, participants were asked to name potential impacts -- whethe
 2. Pushing kids to less safe resources
 3. Kids lose the ability to explore on their own
 4. Diminishing children's rights
+{:compact}
 
 ## Ecosystem Impact
 
@@ -431,6 +436,7 @@ During the workshop, participants were asked to name potential impacts -- whethe
 8. Restricting people to a few platforms / services
 9. More use/utility of the Internet due to a perception of safety
 10. More (or all) online services require a verified login
+{:compact}
 
 ## Implementation and Deployment Difficulties
 
@@ -446,6 +452,7 @@ During the workshop, participants were asked to name potential impacts -- whethe
 10. Imposition of cultural norms on other jurisdictions
 11. Technical solutions are reused for other purposes (scope creep)
 12. Dealing with obsolete and non-compliant systems
+{:compact}
 
 ## Security and Privacy
 
@@ -455,6 +462,7 @@ During the workshop, participants were asked to name potential impacts -- whethe
 4. Needing to trust someone on their word without evidence
 5. Normalizing online identity requests -- increase to phishing risk
 6. Data breaches
+{:compact}
 
 ## Equity
 
@@ -467,6 +475,7 @@ During the workshop, participants were asked to name potential impacts -- whethe
 7. Loss of control over and access to data
 8. Risk to anonymity
 9. Loss of ability to run software of your choice
+{:compact}
 
 ## Societal Impacts
 
@@ -477,6 +486,7 @@ During the workshop, participants were asked to name potential impacts -- whethe
 5. Use as a censorship mechanism
 6. Advancing foreign policy goals with censorship
 7. Abuse of guardians who don't cut off their wards
+{:compact}
 
 # Desirable and Essential Properties of a Solution
 
@@ -494,6 +504,7 @@ During the workshop, participants were asked to nominate the properties that the
 8. Agile by design -- assume adversarial engagement
 9. Difficult to bypass
 10. Accurate
+{:compact}
 
 ## Accountability and Transparency
 
@@ -502,6 +513,7 @@ During the workshop, participants were asked to nominate the properties that the
 3. Can be independently / publicly verifiable and tested
 4. Auditability
 5. Appeal mechanism for incorrect labelling of content
+{:compact}
 
 ## Privacy and Security
 
@@ -512,6 +524,7 @@ During the workshop, participants were asked to nominate the properties that the
 5. Phishing-resistant
 6. Doesn't process or transfer any more data than is necessary
 7. Avoids becoming a tracking vector
+{:compact}
 
 ## Equity
 
@@ -526,6 +539,7 @@ During the workshop, participants were asked to nominate the properties that the
 9. No clear losers
 10. Accessible to people with disabilities
 11. Includes appeal mechanisms for incorrect age determinations
+{:compact}
 
 ## Jurisdiction and Geopolitical
 
@@ -536,6 +550,7 @@ During the workshop, participants were asked to nominate the properties that the
 5. No concentration of power in any country
 6. Aligned to legal duties
 7. Based upon a valid legal basis
+{:compact}
 
 ## Usability
 
@@ -543,6 +558,7 @@ During the workshop, participants were asked to nominate the properties that the
 2. Low friction for adults
 3. Fast
 4. Comprehensible by users
+{:compact}
 
 ## Implementation and Deployment
 
@@ -552,6 +568,7 @@ During the workshop, participants were asked to nominate the properties that the
 4. Decentralized
 5. Future-proof
 6. Ability to report / learn when there are issues in the system / telemetry
+{:compact}
 
 ## General / Other
 
@@ -566,3 +583,4 @@ During the workshop, participants were asked to nominate the properties that the
 9. Addresses risk of verification becoming over-prevalent
 10. Accountable governance
 11. Open Standards-based
+{:compact}
