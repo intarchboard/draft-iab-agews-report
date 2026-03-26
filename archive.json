@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-03-24T00:53:54.035790+00:00",
+  "timestamp": "2026-03-26T01:03:43.758394+00:00",
   "repo": "intarchboard/draft-iab-agews-report",
   "labels": [
     {
@@ -388,6 +388,34 @@
       "mergedBy": "mnot",
       "mergeCommit": {
         "oid": "dbc6959dfb3c519926bab5866e85a3b263a4aac8"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOQzuCks7M4Pn7",
+      "title": "Make a lot of lists compact",
+      "url": "https://github.com/intarchboard/draft-iab-agews-report/pull/8",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This makes it easier to process - there's a lot of wasted vertical space.",
+      "createdAt": "2026-03-24T04:30:16Z",
+      "updatedAt": "2026-03-24T05:00:32Z",
+      "baseRepository": "intarchboard/draft-iab-agews-report",
+      "baseRefName": "main",
+      "baseRefOid": "dbc6959dfb3c519926bab5866e85a3b263a4aac8",
+      "headRepository": "intarchboard/draft-iab-agews-report",
+      "headRefName": "compact-lists",
+      "headRefOid": "ca47d024ba08d018c353c9aa7e4384ad979ec807",
+      "closedAt": "2026-03-24T05:00:27Z",
+      "mergedAt": "2026-03-24T05:00:26Z",
+      "mergedBy": "mnot",
+      "mergeCommit": {
+        "oid": "fce4af7b580a400bfd7c16cd2c27a09553975515"
       },
       "comments": [],
       "reviews": []
