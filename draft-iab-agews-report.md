@@ -584,3 +584,22 @@ During the workshop, participants were asked to nominate the properties that the
 10. Accountable governance
 11. Open Standards-based
 {:compact}
+
+# IAB Members at the Time of Approval
+{:numbered="false"}
+
+Internet Architecture Board members at the time this document was approved for publication were:
+
+- Ali C. Begen
+- Matthew Bocci
+- Roman Danyliw
+- Dhruv Dhody
+- Jana Iyengar
+- Suresh Krishnan
+- Jason Livingood
+- Warren Kumari
+- Mark Nottingham
+- Yingzhen Qu
+- Alvaro Retana
+- Yaroslav Rosomakho
+- Nick Sullivan
