@@ -5,7 +5,7 @@
 Network Working Group                                      M. Nottingham
 Internet-Draft                                                          
 Intended status: Informational                                M. Thomson
-Expires: 25 September 2026                                 24 March 2026
+Expires: 17 October 2026                                   15 April 2026
 
 
  Report from the IAB/W3C Workshop on Age-Based Restrictions on Content
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 September 2026.
+   This Internet-Draft will expire on 17 October 2026.
 
 Copyright Notice
 
@@ -109,6 +109,7 @@ Table of Contents
      D.6.  Usability
      D.7.  Implementation and Deployment
      D.8.  General / Other
+   IAB Members at the Time of Approval
    Authors' Addresses
 
 1.  Introduction
@@ -992,6 +993,37 @@ D.8.  General / Other
    9.   Addresses risk of verification becoming over-prevalent
    10.  Accountable governance
    11.  Open Standards-based
+
+IAB Members at the Time of Approval
+
+   Internet Architecture Board members at the time this document was
+   approved for publication were:
+
+   *  Ali C.  Begen
+
+   *  Matthew Bocci
+
+   *  Roman Danyliw
+
+   *  Dhruv Dhody
+
+   *  Jana Iyengar
+
+   *  Suresh Krishnan
+
+   *  Jason Livingood
+
+   *  Warren Kumari
+
+   *  Mark Nottingham
+
+   *  Yingzhen Qu
+
+   *  Alvaro Retana
+
+   *  Yaroslav Rosomakho
+
+   *  Nick Sullivan
 
 Authors' Addresses
 
