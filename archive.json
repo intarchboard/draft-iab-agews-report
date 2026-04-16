@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-04-14T01:11:28.717460+00:00",
+  "timestamp": "2026-04-16T01:14:11.724972+00:00",
   "repo": "intarchboard/draft-iab-agews-report",
   "labels": [
     {
@@ -425,24 +425,26 @@
       "id": "PR_kwDOQzuCks7QZJ2_",
       "title": "Add IAB Members at the Time of Approval",
       "url": "https://github.com/intarchboard/draft-iab-agews-report/pull/9",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "dhruvdhody",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "Added a list of IAB members at the time of approval.",
       "createdAt": "2026-04-07T05:39:23Z",
-      "updatedAt": "2026-04-07T05:44:40Z",
+      "updatedAt": "2026-04-15T14:32:14Z",
       "baseRepository": "intarchboard/draft-iab-agews-report",
       "baseRefName": "main",
       "baseRefOid": "fce4af7b580a400bfd7c16cd2c27a09553975515",
       "headRepository": "intarchboard/draft-iab-agews-report",
       "headRefName": "dhruvdhody-IAB-approval",
       "headRefOid": "84074b3180f70b67231f28daf58f8e8c599759e1",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2026-04-15T14:32:14Z",
+      "mergedAt": "2026-04-15T14:32:14Z",
+      "mergedBy": "martinthomson",
+      "mergeCommit": {
+        "oid": "e7402a7ebe7abf8ebc885c3364744bbf69a39999"
+      },
       "comments": [],
       "reviews": [
         {
@@ -456,6 +458,19 @@
           "body": "",
           "createdAt": "2026-04-07T05:44:40Z",
           "updatedAt": "2026-04-07T05:44:40Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOQzuCks71PTVJ",
+          "commit": {
+            "abbreviatedOid": "84074b3"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2026-04-15T14:32:05Z",
+          "updatedAt": "2026-04-15T14:32:05Z",
           "comments": []
         }
       ]
